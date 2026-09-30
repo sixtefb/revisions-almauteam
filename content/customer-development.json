@@ -1,0 +1,883 @@
+{
+  "id": "customer-development",
+  "emoji": "🎯",
+  "name": {
+    "fr": "Customer Development",
+    "en": "Customer Development"
+  },
+  "teacher": "SEI1048 – Customer Development (AlmaU)",
+  "coverage": "Lesson 1 et Weeks 2, 3 et 5 (la Week 4 – recrutement et éthique – n'a pas encore été fournie)",
+  "fiches": [
+    {
+      "id": "why-cd",
+      "title": {
+        "fr": "Pourquoi le Customer Development existe",
+        "en": "Why Customer Development exists"
+      },
+      "body": {
+        "fr": [
+          "**Risque caché** : ce n'est pas l'exécution lente, c'est **l'exécution confiante de la mauvaise idée**. Une équipe peut livrer à l'heure et dans le budget et échouer si le problème client n'a jamais été réel.",
+          "**Définition** : le Customer Development est une manière disciplinée de **transformer des hypothèses en preuves, et des preuves en décisions** (Assumption → Evidence → Decision).",
+          "**Origines** : réponse aux échecs répétés de startups ; **2005** les Four Steps (Blank) ; **2012** le manuel opérationnel (Blank & Dorf) ; aujourd'hui interviews, observation, expériences, journaux de preuves.",
+          "**Search vs Execution** : une startup **cherche** un modèle (incertitude forte, hypothèses provisoires, progrès = incertitude réduite) ; une entreprise établie **exécute** un modèle connu (processus répétables, progrès = livraison fiable).",
+          "**Piège du business plan** : il écrit les hypothèses comme des faits. Le Customer Development les réécrit en **affirmations testables** : « Nous croyons que [segment] vit [problème] dans [contexte], causant [conséquence]. Nous chercherons ce qui pourrait nous donner tort. »",
+          "**4 étapes** : 1 **Customer Discovery** (problème réel ?) → 2 **Customer Validation** (le modèle se répète ?) → 3 **Customer Creation** (la demande peut croître ?) → 4 **Company Building** (l'organisation passe à l'échelle ?). **Le cours se concentre sur l'étape 1.**",
+          "**Discovery répond à 4 questions** : **WHO** (quelles personnes partagent un contexte pertinent), **WHAT** (quel problème), **HOW NOW** (quelles alternatives/contournements), **HOW SURE** (quelles preuves soutiennent ou contredisent)."
+        ],
+        "en": [
+          "**Hidden risk**: not slow execution but **confident execution of the wrong idea**. A team can deliver on time and on budget and still fail if the customer problem was never real.",
+          "**Definition**: Customer Development is a disciplined way to **turn assumptions into evidence and evidence into decisions** (Assumption → Evidence → Decision).",
+          "**Origins**: response to repeated startup failure; **2005** the Four Steps (Blank); **2012** the operating manual (Blank & Dorf); today interviews, observation, experiments and evidence logs.",
+          "**Search vs Execution**: a startup **searches** for a model (high uncertainty, provisional assumptions, progress = reduced uncertainty); an established company **executes** a known model (repeatable processes, progress = reliable delivery).",
+          "**The planning trap**: a business plan writes assumptions as if they were facts. Discovery rewrites them as **testable claims**: “We believe [segment] experiences [problem] in [context], causing [consequence]. We will look for evidence that could prove us wrong.”",
+          "**4 stages**: 1 **Customer Discovery** (real problem?) → 2 **Customer Validation** (can the model repeat?) → 3 **Customer Creation** (can demand grow?) → 4 **Company Building** (can the organisation scale?). **This course concentrates on Stage 1.**",
+          "**Discovery answers 4 questions**: **WHO** (which people share a relevant context), **WHAT** (which problem), **HOW NOW** (alternatives/workarounds), **HOW SURE** (what evidence supports or challenges the claim)."
+        ]
+      }
+    },
+    {
+      "id": "loop-vs",
+      "title": {
+        "fr": "Boucle d'apprentissage, risques et différences avec l'étude de marché / la vente",
+        "en": "The learning loop, risks, and how discovery differs from research and selling"
+      },
+      "body": {
+        "fr": [
+          "**Deux pistes en parallèle** : Product (Concept, Design, Build, Launch, Scale) et Customer (Assumptions, Interviews, Patterns, Decision, Next test). **Un jalon produit n'est pas une preuve que l'hypothèse client est vraie.**",
+          "**Trois risques** : **Customer risk** (mauvais segment), **Problem risk** (problème faible, rare ou toléré), **Value risk** (trop petit pour pousser à agir). *Discovery achète de meilleures décisions, pas la certitude.*",
+          "**Dedans vs dehors** : à l'intérieur du bâtiment on a des opinions (croyances, débats de features, prévisions) ; à l'extérieur on observe des comportements (histoires récentes, contournements, coûts, arbitrages, contradictions).",
+          "**Boucle** : Assumption (rendre l'incertitude explicite) → Test (méthode + échantillon) → Evidence (comportement et contexte) → Decision (**continuer, resserrer, pivoter, arrêter**). Une boucle utile **se termine par une décision changée**, pas juste plus de notes.",
+          "**Discovery vs Market research vs Selling** : rôle principal = réduire l'incertitude / décrire un marché / créer une transaction ; preuves = histoires, comportements, alternatives / tendances, attitudes / objections, engagements ; posture = curieux et falsifiable / analytique / persuasif ; **mode d'échec** = pitcher l'idée / des moyennes qui cachent le contexte / prendre l'accord pour une preuve."
+        ],
+        "en": [
+          "**Two parallel tracks**: Product (Concept, Design, Build, Launch, Scale) and Customer (Assumptions, Interviews, Patterns, Decision, Next test). **A product milestone is not evidence that the customer hypothesis is true.**",
+          "**Three risks**: **Customer risk** (wrong segment), **Problem risk** (weak, rare or tolerated problem), **Value risk** (too small to motivate action). *Discovery buys better decisions, not certainty.*",
+          "**Inside vs outside**: inside the building we have opinions (beliefs, feature debates, forecasts); outside we can observe behaviour (recent stories, workarounds, costs, trade-offs, contradictions).",
+          "**Loop**: Assumption (make uncertainty explicit) → Test (method + sample) → Evidence (behaviour and context) → Decision (**continue, narrow, pivot or stop**). A useful loop **ends with a changed decision**, not merely more notes.",
+          "**Discovery vs Market research vs Selling**: main job = reduce uncertainty / describe a market / create a transaction; evidence = stories, behaviour, alternatives / trends, attitudes / objections, commitments; stance = curious & falsifiable / analytical / persuasive; **failure mode** = pitching the idea / broad averages hide context / agreement mistaken for evidence."
+        ]
+      }
+    },
+    {
+      "id": "evidence-language",
+      "title": {
+        "fr": "Le langage de la preuve",
+        "en": "The language of evidence"
+      },
+      "body": {
+        "fr": [
+          "**5 termes** : **Assumption** = croyance traitée comme incertaine ; **Hypothesis** = affirmation spécifique et testable ; **Evidence** = observation pertinente pour l'affirmation ; **Insight** = interprétation qui explique un motif ; **Decision** = changement d'action justifié par les preuves.",
+          "**Observation ≠ interprétation ≠ claim** : « Elle a ouvert trois applis bancaires et copié les soldes dans Notes » = **observation** (directement vue) ; « elle essaie de créer une vue unique de son argent » = **interprétation** ; « les étudiants ont besoin d'un système de budget consolidé » = **claim** (généralisation testable). On écrit les trois mais on les **étiquette honnêtement**.",
+          "**Anatomie d'un problème (4 parties)** : **Segment** (qui), **Context** (quand/où), **Friction** (ce qui bloque), **Consequence** (coût, retard, risque, émotion). Si une partie est floue, l'hypothèse est difficile à tester et facile à confirmer.",
+          "**Unité d'analyse** : segment × contexte × problème × conséquence. Ex. : étudiants de 1re année × avant le loyer × ne voient pas leurs dépenses discrétionnaires × virements en retard et frais évitables.",
+          "**Problème vs solution** : « Je veux une app » est une **demande de solution**, pas une preuve. Demander l'histoire derrière : qu'est-il arrivé la dernière fois ? qu'as-tu fait ? qu'est-ce qui était difficile ? qu'est-ce que ça a coûté ?",
+          "**Hypothèse falsifiable** : « We believe [SEGMENT] in [CONTEXT] struggles with [PROBLEM] causing [CONSEQUENCE] » + « We would reconsider this if… ». Test : retirer tous les mots de solution, l'énoncé doit rester vrai."
+        ],
+        "en": [
+          "**5 terms**: **Assumption** = a belief treated as uncertain; **Hypothesis** = a specific, testable claim; **Evidence** = an observation relevant to the claim; **Insight** = an interpretation that explains a pattern; **Decision** = a change in action justified by evidence.",
+          "**Observation ≠ interpretation ≠ claim**: “She opened three banking apps and copied balances into Notes” = **observation** (directly witnessed); “She is trying to create one view of her money” = **interpretation**; “Students need a consolidated budgeting system” = **claim** (testable generalisation). Write all three but **label them honestly**.",
+          "**Problem anatomy (4 parts)**: **Segment** (who), **Context** (when/where), **Friction** (what blocks progress), **Consequence** (cost, delay, risk, emotion). If one part is vague, the hypothesis is hard to test and easy to confirm.",
+          "**Unit of analysis**: segment × context × problem × consequence. E.g. first-year students × before rent is due × cannot see discretionary spending × late transfers and avoidable fees.",
+          "**Problem vs solution**: “I want an app” is a **solution request**, not evidence. Ask for the story behind it: what happened last time? what did you do? what was difficult? what did it cost?",
+          "**Falsifiable hypothesis**: “We believe [SEGMENT] in [CONTEXT] struggles with [PROBLEM] causing [CONSEQUENCE]” + “We would reconsider this if…”. Test: remove every solution word, the statement must still be true."
+        ]
+      }
+    },
+    {
+      "id": "evidence-strength",
+      "title": {
+        "fr": "Force de la preuve, alternatives, cas négatifs, éthique",
+        "en": "Evidence strength, alternatives, negative cases, ethics"
+      },
+      "body": {
+        "fr": [
+          "**Échelle de preuve (5 = la plus forte)** : 5 comportement répété avec coût ou engagement réel · 4 histoire récente précise avec détails observables · 3 contournement/alternative actuelle · 2 attitude ou préférence générale · 1 intention future. *L'échelle classe la qualité, pas la certitude ; aucune interview ne prouve un marché.*",
+          "**Passé > intention** : éviter « Would you use…? / Would you pay…? / Do you like…? » (politesse, imagination, prédiction) ; préférer « Tell me about the last time… / What did you do next? / What did that cost? ».",
+          "**Alternatives et concurrence** : dedicated tool, general tool (tableur, chat, notes), manual workaround, delegation, **do nothing**. Si le client ne fait rien, demander ce qui rend le statu quo acceptable.",
+          "**Intensité du problème** = fréquence + conséquence + coût actuel. **Intensité ≠ volume de plaintes** : une plainte bruyante peut avoir peu de conséquences, un contournement silencieux peut coûter des heures chaque semaine.",
+          "**Cas négatifs** : les contradictions sont des données, elles protègent du biais de confirmation. Trois seaux : **Supports**, **Challenges**, **Unknown**.",
+          "**Preuve prête pour la décision** : **relevant, varied, traceable, ethical** (participation informée, minimisation des données, confidentialité, pas de pression trompeuse). Porte de décision : **Continue / Narrow / Pivot / Stop**. Ne pas appliquer une règle de taille d'échantillon mécaniquement."
+        ],
+        "en": [
+          "**Evidence ladder (5 = strongest)**: 5 repeated behaviour with real cost or commitment · 4 recent specific story with observable detail · 3 current workaround or alternative · 2 general attitude or preference · 1 future intention. *The ladder ranks quality, not certainty; no single interview proves a market.*",
+          "**Past > intention**: avoid “Would you use…? / Would you pay…? / Do you like…?” (politeness, imagination, prediction); prefer “Tell me about the last time… / What did you do next? / What did that cost?”.",
+          "**Alternatives and competition**: dedicated tool, general tool (spreadsheet, chat, notes), manual workaround, delegation, **do nothing**. If the customer does nothing, ask what makes the status quo acceptable.",
+          "**Problem intensity** = frequency + consequence + current cost. **Intensity ≠ complaint volume**: a loud complaint may have little consequence; a quiet workaround may consume hours every week.",
+          "**Negative cases**: contradictions are data, they protect against confirmation bias. Three buckets: **Supports**, **Challenges**, **Unknown**.",
+          "**Decision-ready evidence**: **relevant, varied, traceable, ethical** (informed participation, data minimisation, confidentiality, no deceptive pressure). Decision gate: **Continue / Narrow / Pivot / Stop**. Don’t use a sample-size rule mechanically."
+        ]
+      }
+    },
+    {
+      "id": "segmentation",
+      "title": {
+        "fr": "Segmentation : de l'audience au segment de recherche",
+        "en": "Segmentation: from audience to research segment"
+      },
+      "body": {
+        "fr": [
+          "**Audience vs segment** : l'audience cible est large (utile pour dimensionner le marché, souvent démographique) ; le **segment de recherche** est une situation pertinente, un comportement observable, des contraintes comparables, **filtrable avant l'interview**. *Un segment est une règle pour comparer des expériences, pas une description de marché.*",
+          "**4 lentilles** : **Context** (quand la tâche se produit ?) · **Behavior** (que se passe-t-il aujourd'hui ?) · **Constraint** (qu'est-ce qui bloque ou augmente le coût ?) · **Consequence** (qu'est-ce qui est perdu ?).",
+          "**Trop large vs cherchable** : « Freelancers de 20-45 ans » (trop large) vs « designers indépendants avec 3-8 clients actifs qui envoient eux-mêmes leurs factures et ont récemment relancé un paiement en retard » (cherchable).",
+          "**« Customer » = plusieurs rôles** : End user, Influencer, Recommender, Economic buyer (contrôle le budget), Decision maker (donne le oui final), **Saboteur** (protège le statu quo). Un même problème crée des douleurs différentes selon le rôle (exemple de la file d'attente en banque).",
+          "**Journée type** (day in the life) : repérer transitions, attentes, travail manuel, répétitions, tension émotionnelle. On en tire des **signaux comparables** (fréquence, qui initie, alternative actuelle, point d'attente, coût de l'erreur…).",
+          "**Échelle de douleur** : 1 a un problème · 2 le reconnaît · 3 cherche une solution · **4 a bricolé un contournement** · **5 a ou cherche un budget**. Les niveaux 4-5 sont utiles tôt car actions et coûts sont visibles.",
+          "**Criblage** : le **comportement bat l'étiquette**. Étiquettes faibles : aware, modern, busy, motivated. Signaux observables : a fait X le mois dernier, a payé une alternative, a construit un processus manuel, a retardé une autre tâche. Un critère qu'on ne peut pas vérifier neutralement est faible pour le recrutement."
+        ],
+        "en": [
+          "**Audience vs segment**: the target audience is broad (useful for market sizing, often demographic); the **research segment** is one relevant situation, observable behaviour, comparable constraints, **screenable before the interview**. *A segment is a rule for comparing experience, not a market description.*",
+          "**4 lenses**: **Context** (when does the task occur?) · **Behavior** (what happens today?) · **Constraint** (what blocks or raises the cost?) · **Consequence** (what is lost?).",
+          "**Too broad vs researchable**: “Freelancers aged 20–45” (too broad) vs “self-employed designers with 3–8 active clients who send invoices themselves and recently chased a late payment” (researchable).",
+          "**“Customer” = several roles**: End user, Influencer, Recommender, Economic buyer (controls budget), Decision maker (gives the final yes), **Saboteur** (protects the status quo). The same situation creates different pain per role (bank queue example).",
+          "**Day in the life**: look for transitions, waiting, manual work, repetition, emotional strain. From it derive **comparable signals** (task frequency, who initiates, current alternative, waiting point, cost of error…).",
+          "**Pain scale**: 1 has a problem · 2 recognizes it · 3 searches for a solution · **4 built a workaround** · **5 has or seeks budget**. Levels 4–5 are useful early because actions and costs are visible.",
+          "**Screening**: **behaviour is stronger than a label**. Weak labels: aware, modern, busy, motivated. Observable signals: did X in the last month, paid for an alternative, built a manual process, delayed another task. A criterion that cannot be checked neutrally is weak for recruitment."
+        ]
+      }
+    },
+    {
+      "id": "problem-hypothesis",
+      "title": {
+        "fr": "Hypothèse de problème, priorisation et recrutement (Week 2)",
+        "en": "Problem hypothesis, prioritization and recruitment (Week 2)"
+      },
+      "body": {
+        "fr": [
+          "**Un problème n'est pas une feature manquante.** Non : « il n'y a pas de rappels automatiques ». Oui (mécanisme observable) : « après une échéance manquée, ils relancent le client à la main et ne peuvent pas prévoir leur trésorerie ».",
+          "**Anatomie** : **Segment** (qui) · **Context** (quand) · **Current path** (que se passe-t-il aujourd'hui) · **Barrier** (ce qui bloque) · **Consequence** (ce qui est perdu).",
+          "**5 types de coûts** : time, money, risk, emotion, social. Question clé : quelle conséquence change réellement le comportement ?",
+          "**Gabarit** : « We believe [segment], in [context], uses [current path], faces [barrier], which leads to [consequence]. » **Elle s'affaiblit si** des participants pertinents ne se rappellent pas d'épisode récent ou si la conséquence ne change pas le comportement.",
+          "**Signaux** : à l'appui = épisodes récents répétés, contournement existant, coût visible ; **disconfirming** = épisode rare, quelqu'un d'autre en est responsable, pas de conséquence, l'alternative marche bien. *Sans signal de réfutation, on collecte des compliments au lieu d'apprendre.*",
+          "**Persuasif ≠ testable** : « Les freelancers ont besoin d'un service pratique de contrôle des paiements » (faible) vs « les designers avec 3-8 clients relancent les paiements à la main, ça prend du temps et rend la trésorerie incertaine » (plus fort).",
+          "**Choisir le segment de départ pour apprendre**, pas pour séduire : accès, fréquence des épisodes, coût de l'inaction, homogénéité, observabilité (notes de 1 à 5). Le choix est **temporaire**.",
+          "**Recruter l'expérience, pas l'accord** : inclure (designer indépendant, émet ses factures, 3-8 clients actifs, retard de paiement dans les 60 jours, a personnellement relancé) ; exclure (salarié, quelqu'un d'autre gère les paiements, 100 % d'acompte, pas d'épisode récent, pas de communication client).",
+          "**Sorties Week 2 → Week 3** : segment, screener, respondents, interview guide. *Formative work, non noté.*"
+        ],
+        "en": [
+          "**A problem is not a missing feature.** Not: “There are no automated reminders”. Yes (observable mechanism): “After a missed due date, they message the client manually and cannot forecast cash flow”.",
+          "**Anatomy**: **Segment** (who) · **Context** (when) · **Current path** (what happens today) · **Barrier** (what blocks progress) · **Consequence** (what is lost).",
+          "**5 kinds of cost**: time, money, risk, emotion, social. Key question: which consequence actually changes behaviour?",
+          "**Template**: “We believe [segment], in [context], uses [current path], faces [barrier], which leads to [consequence].” **It weakens if** relevant participants cannot recall a recent episode or the consequence does not change behaviour.",
+          "**Signals**: supporting = recent episodes repeat, a workaround exists, the cost is visible; **disconfirming** = episode is rare, another person owns it, no consequence, alternative works well. *Without a disconfirming signal, a team collects compliments instead of learning.*",
+          "**Persuasive ≠ testable**: “Freelancers need a convenient payment-control service” (weak) vs “designers with 3–8 clients chase late payments manually; this takes time and makes cash flow uncertain” (stronger).",
+          "**Choose a starting segment for learning**, not presentation appeal: access, episode frequency, cost of inaction, homogeneity, observability (scored 1–5). The choice is **temporary**.",
+          "**Recruit for experience, not agreement**: include (self-employed designer, issues own invoices, 3–8 active clients, late payment in 60 days, personally chased); exclude (salaried, another person owns payments, 100% prepayment, no recent episode, no client communication).",
+          "**Week 2 output → Week 3**: segment, screener, respondents, interview guide. *Formative work, not graded.*"
+        ]
+      }
+    },
+    {
+      "id": "problem-interview",
+      "title": {
+        "fr": "Interview problème et Mom Test (Week 3)",
+        "en": "Problem interviews and the Mom Test (Week 3)"
+      },
+      "body": {
+        "fr": [
+          "**Un « oui » poli peut être une mauvaise donnée.** « Would you use an app that reminds you about every deadline? » → « Probably, yes » : ça sonne bien, ça ne prouve rien. Mieux : « Tell me about the last important deadline you had to track ».",
+          "**Règle de recherche** : une question doit laisser la place de **réfuter l'hypothèse** (le participant doit pouvoir dire « il n'y a pas de problème »).",
+          "**But** : comprendre le **mécanisme du problème** (quand ? que se passe-t-il aujourd'hui ? qu'est-ce qui gêne ? qu'en résulte-t-il ?). Ce n'est **ni de la vente ni du brainstorming** : on n'a pas à demander l'approbation de l'idée, une liste de features, une promesse d'achat, des conseils au fondateur.",
+          "**3 types d'interview** : **Problem** (le problème existe-t-il, comment fonctionne-t-il ?) · **Solution** (comprend-il la solution, l'aide-t-elle ?) · **Expert** (comment marchent le marché, le process, les contraintes ?). *La Week 3 ne traite que l'interview problème.*",
+          "**Force des réponses** (faible → forte) : « Great idea » · « This is usually difficult » · « Next time I would… » · « Last week this happened… » · « I spent 3 hours / paid / built a workaround ».",
+          "**4 signaux** : **Fact**, **Trigger**, **Action**, **Consequence**. Un insight naît de la **comparaison entre interviews**, pas d'une belle citation.",
+          "**Mom Test – 3 règles** : (1) parler de **leur vie**, pas de ton idée ; (2) demander le **passé**, pas le futur ; (3) **écouter plus que parler**.",
+          "**4 pièges** : (1) les **compliments** (« Do you like our idea? ») → « How do you currently track deadlines? » ; (2) les **intentions futures sont bon marché** (« Would you check the app daily? ») → « When did you last check? » ; (3) le **pitch** transforme l'échange en revue ; (4) la **demande de feature** cache le problème → « What would become easier? Tell me about a time when that mattered ».",
+          "**Suivre l'épisode** : When did this last happen ? What triggered it ? What did you do first ? What happened next ? How did it end ?"
+        ],
+        "en": [
+          "**A polite “yes” can be bad data.** “Would you use an app that reminds you about every deadline?” → “Probably, yes”: sounds nice, proves nothing. Better: “Tell me about the last important deadline you had to track”.",
+          "**Research rule**: a question must leave room to **disprove the hypothesis** (the participant must be able to say “there is no problem”).",
+          "**Goal**: understand the **problem mechanism** (when does it occur? what happens today? what gets in the way? what results?). It is **not sales or brainstorming**: don’t ask for approval of the idea, a feature wish list, a promise to buy, or advice to the founder.",
+          "**3 interview types**: **Problem** (does the problem exist and how does it work?) · **Solution** (does the person understand the solution and does it help?) · **Expert** (how do the market, process or constraints work?). *Week 3 focuses only on the problem interview.*",
+          "**Answer strength** (weak → strong): “Great idea” · “This is usually difficult” · “Next time I would…” · “Last week this happened…” · “I spent 3 hours / paid / built a workaround”.",
+          "**4 signals**: **Fact**, **Trigger**, **Action**, **Consequence**. An insight emerges after **comparing interviews**, not from one attractive quote.",
+          "**Mom Test – 3 rules**: (1) talk about **their life**, not your idea; (2) ask about the **past**, not the future; (3) **listen more than you talk**.",
+          "**4 traps**: (1) **compliments** (“Do you like our idea?”) → “How do you currently track deadlines?”; (2) **future intentions are cheap** (“Would you check the app daily?”) → “When did you last check?”; (3) a **pitch** turns the conversation into a review; (4) a **feature request** hides the problem → “What would become easier? Tell me about a time when that mattered”.",
+          "**Follow the episode**: When did this last happen? What triggered it? What did you do first? What happened next? How did it end?"
+        ]
+      }
+    },
+    {
+      "id": "interview-guide",
+      "title": {
+        "fr": "Construire le guide d'interview et le Task 1.1",
+        "en": "Building the interview guide and Task 1.1"
+      },
+      "body": {
+        "fr": [
+          "**Commencer par 3 inconnues**, pas par des questions : « qu'est-ce qui doit être plus clair après la conversation ? » (ex. fréquence de la confusion, méthode actuelle de suivi, conséquences d'une échéance manquée). Si une question ne réduit pas une incertitude, on l'enlève.",
+          "**5 parties du guide** : 1 **Opening and consent** · 2 **Context** · 3 **Recent episode** · 4 **Actions and impact** · 5 **Closing**. C'est un itinéraire, pas un questionnaire rigide.",
+          "**Ouverture** (30 premières secondes) : neutre, ne nomme **pas** le produit, ne sous-entend pas que le problème est prouvé ; mentionne la durée (~20 min), l'accord pour prendre des notes, le droit de sauter une question.",
+          "**Contexte** : court échauffement (semaine type, types d'échéances, d'où vient l'info, comment on la suit). **Épisode récent** : « Tell me about your last deadline » – noter date, séquence, personnes, résultat. **Sonder la séquence** sans défendre l'hypothèse.",
+          "**Alternatives actuelles** : manual, paid, social, avoidance. **Conséquences** rendues observables : time, money, risk, emotion (« What happened because of that? »).",
+          "**Clôture** : What important question did I miss ? Puis-je te recontacter ? Qui d'autre ? Un document anonymisable ? **Ne jamais finir par « So, what do you think of our idea? »**",
+          "**Exemple de transcript** : deux sources de dates contradictoires (email vs WhatsApp) → pivot possible : le problème est la **confiance dans la source**, pas la mémoire ni les rappels.",
+          "**Pilote en triades** : Interviewer / Participant / Observer, interview de 8 min puis 3 min de feedback.",
+          "**Task 1.1 (evidence package)** – 8 parties : Revised Segment Portrait · Problem hypothesis · One disconfirming signal · Guide (10-12 core questions) · Criteria and short screener · Two completed interviews · Two anonymised records · Methodological self-check. **À rendre en un seul fichier avant le début de la Week 5.**",
+          "**Barème (100 pts)** : Segment Portrait + hypothesis **15** · Interview guide **25** · Respondent fit + ethical procedure **10** · Two anonymised interview records **30** · Analysis + methodological self-check **20**. Interviews réelles seulement **après la Week 4**. Pas encore : CJM, synthèse/codage, Problem Statements + Job Stories, prototype."
+        ],
+        "en": [
+          "**Start with 3 unknowns**, not questions: “what must become clearer after the conversation?” (e.g. frequency of confusion, current tracking method, consequences of a missed deadline). If a question does not reduce an uncertainty, remove it.",
+          "**5 parts of the guide**: 1 **Opening and consent** · 2 **Context** · 3 **Recent episode** · 4 **Actions and impact** · 5 **Closing**. It is a route, not a rigid questionnaire.",
+          "**Opening** (first 30 seconds): neutral, **do not** name the product or imply the problem is proven; mention duration (~20 min), permission to take notes, right to skip questions.",
+          "**Context**: short warm-up (typical week, kinds of deadlines, where info comes from, how it is tracked). **Recent episode**: “Tell me about your last deadline” – capture date, sequence, people, outcome. **Probe the sequence** without defending the hypothesis.",
+          "**Current alternatives**: manual, paid, social, avoidance. **Consequences** made observable: time, money, risk, emotion (“What happened because of that?”).",
+          "**Closing**: What important question did I miss? May I follow up? Who else should I speak with? Any document that could be anonymized? **Never finish with “So, what do you think of our idea?”**",
+          "**Transcript example**: two conflicting date sources (email vs WhatsApp) → possible pivot: the problem is **source trust**, not memory or reminders.",
+          "**Pilot in triads**: Interviewer / Participant / Observer, 8-minute interview then 3-minute feedback.",
+          "**Task 1.1 (evidence package)** – 8 parts: Revised Segment Portrait · Problem hypothesis · One disconfirming signal · Guide (10–12 core questions) · Criteria and short screener · Two completed interviews · Two anonymised records · Methodological self-check. **Submit as one file before Week 5 begins.**",
+          "**Grading (100 pts)**: Segment Portrait + hypothesis **15** · Interview guide **25** · Respondent fit + ethical procedure **10** · Two anonymised interview records **30** · Analysis + methodological self-check **20**. Real interviews only **after Week 4**. Not yet: CJM, coding/synthesis board, Problem Statements + Job Stories, prototype."
+        ]
+      }
+    },
+    {
+      "id": "analysis",
+      "title": {
+        "fr": "Analyser les interviews : preuves, codes, thèmes, insights (Week 5)",
+        "en": "Analysing interviews: evidence, codes, themes, insights (Week 5)"
+      },
+      "body": {
+        "fr": [
+          "**Chaîne d'analyse** : Raw data → **Evidence** (qu'a dit/fait le client ?) → **Codes** (de quoi parle ce fragment ?) → **Themes** (quels codes vont ensemble ?) → **Patterns** (ce qui se répète, se relie ou se contredit) → **Insights** (que signifie le motif ?) → **Customer journey** (où ça se passe ?) → **Learning** (ce qui change dans notre compréhension).",
+          "**Pourquoi analyser** : éviter de se fier aux citations marquantes, réduire le biais de confirmation, comparer les clients systématiquement, distinguer preuve et interprétation, trouver l'inattendu.",
+          "**Bonne preuve** : spécifique, liée à une situation réelle, traçable jusqu'à l'interview, basée sur ce que le client a vécu. **Comportement réel > hypothétique** (« I stopped using the service after it arrived two hours late » > « I would probably stop… »).",
+          "**Coding** = attribuer une **étiquette courte** à un fragment significatif. Bon code : court, spécifique, significatif, relié à la preuve, réutilisable. À éviter : Problem, Customer, App, Bad experience. À préférer : Price sensitivity, Lack of trust, Time pressure, Need for predictability, Competing priorities.",
+          "**Inductive coding** : DATA → CODE → THEME. Ne pas forcer les données dans l'hypothèse de départ. **Code** = étiquette spécifique ; **Theme** = concept plus large qui relie des codes (ex. TIME & CONVENIENCE).",
+          "**Patterns** : répétition, comportements similaires, séquences, déclencheurs et conséquences, contradictions. **La fréquence n'est pas tout** : intensité, conséquences comportementales, pertinence, contexte, cohérence. Un comportement très conséquent peut compter plus que plusieurs remarques légères.",
+          "**Insight** = interprétation fondée sur des preuves qui explique un comportement/une motivation/une expérience. **Insight ≠ solution** (« Customers struggle to maintain usage when their routine changes » = insight ; « We should add reminders » = solution). Structure : « Customers [behaviour] when [context], which suggests [interpretation] ».",
+          "**Démo food delivery** : « I see the delivery fee and decide not to order » → evidence *delivery fee affects decision* → code **Price sensitivity** → thème **Cost**. Tension : commodité (« no time to cook ») **mais** coût/incertitude/confiance (« I don't trust the estimated delivery time »).",
+          "**Revisiter l'hypothèse** : Supported / Partially supported / Challenged / Inconclusive. On ne la change **que si les preuves le suggèrent**, pas parce qu'elle « sonne mieux ».",
+          "**Current-State Customer Journey Map** : ce que les clients vivent **maintenant** (pas l'état futur idéal). Étapes possibles : Need → Discovery → Consideration → Adoption → Use → Friction → Drop-off / Continued use ; pour chaque étape : action, touchpoint, thought, emotion, pain point, evidence.",
+          "**Principe** : *evidence before interpretation, interpretation before solution.* Exit ticket : pattern le plus important, preuve, prochaine question. Réflexion : WE THOUGHT… / WE LEARNED… / WE NEED TO TEST…"
+        ],
+        "en": [
+          "**Analysis chain**: Raw data → **Evidence** (what did the customer say/do?) → **Codes** (what is this fragment about?) → **Themes** (which codes belong together?) → **Patterns** (what repeats, connects or contradicts?) → **Insights** (what does the pattern mean?) → **Customer journey** (where does it happen?) → **Learning** (what changes in our understanding).",
+          "**Why analyse**: avoid relying on memorable quotes, reduce confirmation bias, compare customers systematically, distinguish evidence from interpretation, discover the unexpected.",
+          "**Good evidence**: specific, connected to a real situation, traceable to the interview, based on what the customer actually experienced. **Real behaviour > hypotheticals** (“I stopped using the service after it arrived two hours late” > “I would probably stop…”).",
+          "**Coding** = assigning a **short label** to a meaningful fragment. Good code: short, specific, meaningful, connected to the evidence, reusable across interviews. Avoid: Problem, Customer, App, Bad experience. Prefer: Price sensitivity, Lack of trust, Time pressure, Need for predictability, Competing priorities.",
+          "**Inductive coding**: DATA → CODE → THEME. Don’t force data to fit your original hypothesis. **Code** = specific label; **Theme** = broader concept connecting related codes (e.g. TIME & CONVENIENCE).",
+          "**Patterns**: repetition, similar behaviour, sequences, triggers and consequences, contradictions. **Frequency is not everything**: intensity, behavioural consequences, relevance, context, consistency. One highly consequential behaviour may matter more than several casual comments.",
+          "**Insight** = evidence-based interpretation that explains customer behaviour, motivation or experience. **Insight ≠ solution** (“Customers struggle to maintain usage when their routine changes” = insight; “We should add reminders” = solution). Structure: “Customers [behaviour] when [context], which suggests [interpretation]”.",
+          "**Food delivery demo**: “I see the delivery fee and decide not to order” → evidence *delivery fee affects decision* → code **Price sensitivity** → theme **Cost**. Tension: convenience (“no time to cook”) **but** cost/uncertainty/trust (“I don’t trust the estimated delivery time”).",
+          "**Revisit the hypothesis**: Supported / Partially supported / Challenged / Inconclusive. Change it **only because the evidence suggests it**, not because it “sounds better”.",
+          "**Current-State Customer Journey Map**: what customers experience **now** (not the ideal future). Possible stages: Need → Discovery → Consideration → Adoption → Use → Friction → Drop-off / Continued use; for each stage: action, touchpoint, thought, emotion, pain point, evidence.",
+          "**Principle**: *evidence before interpretation, interpretation before solution.* Exit ticket: most important pattern, its evidence, next question. Reflection: WE THOUGHT… / WE LEARNED… / WE NEED TO TEST…"
+        ]
+      }
+    }
+  ],
+  "qcm": [
+    {
+      "id": "cd-01",
+      "fiche": "why-cd",
+      "q": "According to Lesson 1, what is the hidden risk for a team?",
+      "correct": "Confident execution of the wrong idea",
+      "wrong": [
+        "Executing too slowly against the plan",
+        "Spending too little on marketing",
+        "Hiring the wrong technical staff"
+      ],
+      "why": "Une équipe peut livrer à l'heure et dans le budget et quand même échouer si le problème client n'a jamais été réel : c'est l'exécution confiante de la mauvaise idée."
+    },
+    {
+      "id": "cd-02",
+      "fiche": "why-cd",
+      "q": "How is Customer Development defined in the course?",
+      "correct": "Turning assumptions into evidence, and evidence into decisions",
+      "wrong": [
+        "A method to sell a finished product to as many buyers as possible",
+        "A survey technique to describe average market trends and attitudes",
+        "A process to build product features as fast as possible"
+      ],
+      "why": "Assumption → Evidence → Decision. Ce n'est ni de la vente, ni une étude de marché descriptive, ni un process de build."
+    },
+    {
+      "id": "cd-03",
+      "fiche": "why-cd",
+      "q": "Which stage of the Customer Development model does this course concentrate on?",
+      "correct": "Stage 1: Customer Discovery",
+      "wrong": [
+        "Stage 2: Customer Validation",
+        "Stage 3: Customer Creation",
+        "Stage 4: Company Building"
+      ],
+      "why": "Ordre : Discovery (problème réel ?), Validation (le modèle se répète ?), Creation (la demande peut croître ?), Company Building (l'organisation passe à l'échelle ?). Le cours se concentre sur l'étape 1."
+    },
+    {
+      "id": "cd-04",
+      "fiche": "why-cd",
+      "q": "In a startup that is 'searching' for a model, what counts as progress?",
+      "correct": "Reduced uncertainty",
+      "wrong": [
+        "Reliable delivery",
+        "Accurate forecasts",
+        "Lower production costs"
+      ],
+      "why": "Search : hypothèses provisoires, l'apprentissage change le plan, progrès = incertitude réduite. Execution : progrès = livraison fiable."
+    },
+    {
+      "id": "cd-05",
+      "fiche": "why-cd",
+      "q": "What are the four questions Customer Discovery answers before a team commits to a solution?",
+      "correct": "Who, What, How now, How sure",
+      "wrong": [
+        "Who, Where, How much, How fast",
+        "What, Why, When, How many",
+        "Who, What, Price, Profit"
+      ],
+      "why": "WHO (quelles personnes), WHAT (quel problème), HOW NOW (alternatives actuelles), HOW SURE (preuves pour ou contre)."
+    },
+    {
+      "id": "cd-06",
+      "fiche": "why-cd",
+      "q": "What is the 'planning trap'?",
+      "correct": "A business plan writes assumptions as if they were facts",
+      "wrong": [
+        "A plan that is updated too often to be useful to the team",
+        "A plan that lists too many financial forecasts for investors",
+        "A plan that is only written after the product has launched"
+      ],
+      "why": "Le plan cache l'incertitude. Discovery réécrit chaque phrase du plan en affirmation testable."
+    },
+    {
+      "id": "cd-07",
+      "fiche": "loop-vs",
+      "q": "Which statement is true about running Product and Customer tracks?",
+      "correct": "A product milestone is not evidence that the customer hypothesis is true",
+      "wrong": [
+        "Launching the product proves that the customer problem exists",
+        "Customer work should only start once the product has launched",
+        "The two tracks must never be run in parallel by the same team"
+      ],
+      "why": "Les deux pistes tournent en parallèle et un jalon produit (build, launch) ne valide pas l'hypothèse client."
+    },
+    {
+      "id": "cd-08",
+      "fiche": "loop-vs",
+      "q": "Which is a risk listed under 'Problem risk'?",
+      "correct": "The problem is weak, rare or tolerated",
+      "wrong": [
+        "We chose the wrong segment",
+        "The market is too small to attract investors",
+        "The team lacks technical skills"
+      ],
+      "why": "Customer risk = mauvais segment ; Problem risk = problème faible, rare ou toléré ; Value risk = trop petit pour motiver l'action."
+    },
+    {
+      "id": "cd-09",
+      "fiche": "loop-vs",
+      "q": "What are the four possible outcomes at the decision gate?",
+      "correct": "Continue, narrow, pivot or stop",
+      "wrong": [
+        "Scale, hire, launch or fundraise",
+        "Continue, expand, invest or wait",
+        "Test, survey, sell or exit"
+      ],
+      "why": "Une boucle utile se termine par une décision changée : continuer, resserrer, pivoter ou arrêter."
+    },
+    {
+      "id": "cd-10",
+      "fiche": "loop-vs",
+      "q": "What is the typical failure mode of 'Selling' compared with Customer Discovery?",
+      "correct": "Agreement is mistaken for evidence",
+      "wrong": [
+        "Pitching the idea instead of listening",
+        "Broad averages hide the context",
+        "Too many stories and no numbers"
+      ],
+      "why": "Selling : l'accord est pris pour une preuve. Discovery : pitcher l'idée. Market research : les moyennes larges cachent le contexte."
+    },
+    {
+      "id": "cd-11",
+      "fiche": "evidence-language",
+      "q": "'She opened three banking apps and copied balances into Notes.' What is this statement?",
+      "correct": "An observation",
+      "wrong": [
+        "An interpretation",
+        "A claim",
+        "A hypothesis"
+      ],
+      "why": "C'est ce qu'on a directement vu. « Elle veut une vue unique de son argent » = interprétation ; « les étudiants ont besoin d'un système de budget consolidé » = claim."
+    },
+    {
+      "id": "cd-12",
+      "fiche": "evidence-language",
+      "q": "Which term means 'a specific, testable claim'?",
+      "correct": "Hypothesis",
+      "wrong": [
+        "Assumption",
+        "Insight",
+        "Decision"
+      ],
+      "why": "Assumption = croyance traitée comme incertaine ; Insight = interprétation qui explique un motif ; Decision = changement d'action justifié par des preuves."
+    },
+    {
+      "id": "cd-13",
+      "fiche": "evidence-language",
+      "q": "Which are the four parts of a customer problem in Lesson 1?",
+      "correct": "Segment, context, friction, consequence",
+      "wrong": [
+        "Segment, product, price, distribution channel",
+        "Customer, competitor, feature list, cost structure",
+        "Context, proposed solution, friction, revenue model"
+      ],
+      "why": "Segment (qui), Context (quand/où), Friction (ce qui bloque), Consequence (coût, retard, risque, émotion). Si une partie est floue, l'hypothèse est difficile à tester."
+    },
+    {
+      "id": "cd-14",
+      "fiche": "evidence-language",
+      "q": "A student says 'I want one app that shows all my accounts.' How should you treat it?",
+      "correct": "As a solution request; ask for the story behind it",
+      "wrong": [
+        "As validated proof that the problem is real and urgent",
+        "As a feature request to add straight to the roadmap",
+        "As a good reason to stop the interview and thank them"
+      ],
+      "why": "« I want an app » est une demande de solution. On demande : qu'est-il arrivé la dernière fois, qu'as-tu fait, qu'est-ce qui était difficile, qu'est-ce que ça a coûté ?"
+    },
+    {
+      "id": "cd-15",
+      "fiche": "evidence-language",
+      "q": "Which test checks whether a problem hypothesis is neutral?",
+      "correct": "Remove every solution word and see if it is still true",
+      "wrong": [
+        "Count how many of the interviewed people agree with it",
+        "Check that it names the product that is planned to be built",
+        "Make sure it contains a clear price estimate for the solution"
+      ],
+      "why": "Si l'énoncé ne tient plus sans mots de solution, ce n'est pas une hypothèse de problème."
+    },
+    {
+      "id": "cd-16",
+      "fiche": "evidence-strength",
+      "q": "On the evidence ladder, which is the STRONGEST type of evidence?",
+      "correct": "Repeated behaviour with real cost or commitment",
+      "wrong": [
+        "A recent specific story with observable detail and dates",
+        "A current workaround or alternative the customer uses",
+        "A general attitude or preference expressed in words"
+      ],
+      "why": "Échelle : 5 comportement répété avec coût/engagement > 4 histoire récente > 3 contournement > 2 attitude > 1 intention future."
+    },
+    {
+      "id": "cd-17",
+      "fiche": "evidence-strength",
+      "q": "Which question is the stronger interview question?",
+      "correct": "Tell me about the last time this happened",
+      "wrong": [
+        "Would you use a tool that fixed this problem for you?",
+        "Would you pay for a solution to this problem?",
+        "Do you like the idea of a product that solves this?"
+      ],
+      "why": "Le passé est ancré dans des preuves existantes. Les questions au conditionnel invitent à la politesse, à l'imagination et à la prédiction."
+    },
+    {
+      "id": "cd-18",
+      "fiche": "evidence-strength",
+      "q": "Problem intensity is best shown by which combination?",
+      "correct": "Frequency, consequence and current cost",
+      "wrong": [
+        "Complaint volume and how loud the tone is",
+        "Number of interviews completed and quotes gathered",
+        "Feature requests and satisfaction ratings received"
+      ],
+      "why": "Intensité ≠ volume de plaintes : une plainte bruyante peut avoir peu de conséquences, un contournement silencieux peut coûter des heures chaque semaine."
+    },
+    {
+      "id": "cd-19",
+      "fiche": "evidence-strength",
+      "q": "Why should contradictions and negative cases be recorded?",
+      "correct": "They protect the team from confirmation bias",
+      "wrong": [
+        "They show that the interview was badly run by the team",
+        "They should be ignored as one-off outliers in the data",
+        "They prove that the hypothesis is definitely correct"
+      ],
+      "why": "Les contradictions sont des données. On range les preuves en Supports, Challenges, Unknown."
+    },
+    {
+      "id": "cd-20",
+      "fiche": "evidence-strength",
+      "q": "Which is NOT one of the four qualities of decision-ready evidence?",
+      "correct": "Unanimous",
+      "wrong": [
+        "Relevant",
+        "Traceable",
+        "Ethical"
+      ],
+      "why": "Les quatre qualités : relevant, varied, traceable, ethical. L'unanimité n'est pas exigée (on cherche aussi des cas qui contredisent)."
+    },
+    {
+      "id": "cd-21",
+      "fiche": "segmentation",
+      "q": "What is the difference between a target audience and a research segment?",
+      "correct": "A segment is one screenable situation with comparable experience",
+      "wrong": [
+        "A segment is always a much bigger group than the audience",
+        "An audience is defined by behaviour, while a segment is defined by age",
+        "There is no difference between them; the terms are synonyms"
+      ],
+      "why": "L'audience est un marché large (utile pour le dimensionner) ; le segment est une situation pertinente, un comportement observable, des contraintes comparables, filtrables avant l'interview."
+    },
+    {
+      "id": "cd-22",
+      "fiche": "segmentation",
+      "q": "Which are the four lenses that turn a category into a research segment?",
+      "correct": "Context, behavior, constraint, consequence",
+      "wrong": [
+        "Age, income, city, education level",
+        "Product, price, place, promotion strategy",
+        "Need, budget, authority, timing of purchase"
+      ],
+      "why": "Context (quand ?), Behavior (que se passe-t-il aujourd'hui ?), Constraint (qu'est-ce qui bloque ?), Consequence (qu'est-ce qui est perdu ?)."
+    },
+    {
+      "id": "cd-23",
+      "fiche": "segmentation",
+      "q": "Which option defines the best research segment?",
+      "correct": "Year 2–3 students who applied for an internship in the last 60 days and rewrote their CV",
+      "wrong": [
+        "Students who need a career service and are looking for help with their professional future",
+        "Ambitious young people aged 18–24 who care about their career and want to get ahead in life",
+        "Modern, digital-native students who are interested in what happens after university ends"
+      ],
+      "why": "L'option B du cours contient une expérience récente, une action et une limite de temps. Les autres sont des étiquettes vagues."
+    },
+    {
+      "id": "cd-24",
+      "fiche": "segmentation",
+      "q": "Which customer role controls the budget?",
+      "correct": "Economic buyer",
+      "wrong": [
+        "Decision maker",
+        "Recommender",
+        "Saboteur"
+      ],
+      "why": "Economic buyer = contrôle le budget ; Decision maker = donne le oui final ; Recommender = peut faire avancer ou stopper ; Saboteur = protège le statu quo."
+    },
+    {
+      "id": "cd-25",
+      "fiche": "segmentation",
+      "q": "On the pain scale, which levels are especially useful early because actions and costs are visible?",
+      "correct": "Levels 4–5 (built a workaround; has or seeks budget)",
+      "wrong": [
+        "Levels 1–2 (has a problem; recognizes that it exists)",
+        "Level 3 only (searches for a solution but has not acted yet)",
+        "Levels 1 and 5 only (has a problem, or has budget)"
+      ],
+      "why": "Un contournement ou un budget rendent actions, coûts et contraintes observables."
+    },
+    {
+      "id": "cd-26",
+      "fiche": "segmentation",
+      "q": "Which is a weak screening criterion (a label rather than an observable signal)?",
+      "correct": "Motivated",
+      "wrong": [
+        "Paid for an alternative",
+        "Built a manual process",
+        "Did X in the last month"
+      ],
+      "why": "Aware, modern, busy, motivated sont faibles : on ne peut pas les vérifier neutralement. Les signaux observables sont des comportements passés."
+    },
+    {
+      "id": "cd-27",
+      "fiche": "problem-hypothesis",
+      "q": "Which is an observable problem mechanism (not just a missing feature)?",
+      "correct": "After a missed due date, they message the client manually and cannot forecast cash flow",
+      "wrong": [
+        "There are no automated reminders for the people who send invoices to their clients",
+        "They need a convenient payment-control service that is modern and easy to use every day",
+        "The current invoicing tools look old and are not attractive to modern freelancers"
+      ],
+      "why": "Un problème n'est pas une feature manquante : on décrit ce qui se passe aujourd'hui et ses conséquences."
+    },
+    {
+      "id": "cd-28",
+      "fiche": "problem-hypothesis",
+      "q": "Which is a disconfirming signal for a problem hypothesis?",
+      "correct": "The episode is rare, or another person owns the problem",
+      "wrong": [
+        "Recent episodes repeat across several different participants",
+        "A workaround exists and clearly costs the person time",
+        "The cost of the problem is visible in their behaviour"
+      ],
+      "why": "Les trois autres options soutiennent l'hypothèse. Réfutent : épisode rare, quelqu'un d'autre en est responsable, pas de conséquence, alternative qui marche bien."
+    },
+    {
+      "id": "cd-29",
+      "fiche": "problem-hypothesis",
+      "q": "What is the template for a strong problem hypothesis in Week 2?",
+      "correct": "We believe [segment], in [context], uses [current path], faces [barrier], which leads to [consequence]",
+      "wrong": [
+        "We believe [product] will help [segment] save [time] at [price] compared with the alternatives they use",
+        "We believe [feature] is needed by [market] because [competitor lacks it] and users keep asking for it",
+        "We believe [segment] will buy [solution] when [promotion runs] and the price feels right to them"
+      ],
+      "why": "Le gabarit contient segment, contexte, current path, barrier et consequence, et aucun mot de solution."
+    },
+    {
+      "id": "cd-28b",
+      "fiche": "problem-hypothesis",
+      "q": "How should you choose the first segment to study?",
+      "correct": "For learning: access, frequency, cost of inaction, homogeneity, observability",
+      "wrong": [
+        "For presentation appeal: the biggest and most impressive market on the slide",
+        "For agreement: the people who like the idea the most and say yes quickly",
+        "For convenience: friends who will happily say yes and respond fast to messages"
+      ],
+      "why": "Le choix est temporaire et sert à apprendre, pas à séduire. Critères notés de 1 à 5 : access, episode frequency, cost of inaction, homogeneity, observability."
+    },
+    {
+      "id": "cd-30",
+      "fiche": "problem-hypothesis",
+      "q": "In the late-payment case, which respondent should be EXCLUDED from recruitment?",
+      "correct": "A designer who always takes 100% prepayment",
+      "wrong": [
+        "A designer with 5 active clients and self-issued invoices",
+        "A designer who personally chased a client for payment",
+        "A designer with a late payment in the last month"
+      ],
+      "why": "Recruter l'expérience, pas l'accord : qui prend 100 % d'acompte n'a pas vécu l'épisode de retard de paiement. Les autres correspondent aux critères d'inclusion."
+    },
+    {
+      "id": "cd-31",
+      "fiche": "problem-interview",
+      "q": "Which is one of the three Mom Test rules?",
+      "correct": "Ask about the past, not the future",
+      "wrong": [
+        "Describe your idea before asking questions",
+        "Ask what features they would want",
+        "Talk more so the person feels comfortable"
+      ],
+      "why": "Les 3 règles : parler de leur vie (pas de ton idée), demander le passé (pas le futur), écouter plus que parler."
+    },
+    {
+      "id": "cd-32",
+      "fiche": "problem-interview",
+      "q": "Which of these is a leading (dangerous) question?",
+      "correct": "You receive announcements in several chats, don't you?",
+      "wrong": [
+        "How did you learn about it?",
+        "What did you do when you could not find the information?",
+        "What happened because of the delay?"
+      ],
+      "why": "Elle suggère la réponse attendue et la donne comme un fait. Une bonne question laisse le participant dire « il n'y a pas de problème »."
+    },
+    {
+      "id": "cd-33",
+      "fiche": "problem-interview",
+      "q": "Why is 'Would you check the app every day?' a weak question?",
+      "correct": "Intention is a hypothesis; past behaviour is evidence",
+      "wrong": [
+        "It is too expensive and time-consuming to ask in a real interview",
+        "It is a sales question about the price of the planned product",
+        "It asks about too many different problems at the same time"
+      ],
+      "why": "Mieux : « When did you last check your deadlines? What exactly did you do? »"
+    },
+    {
+      "id": "cd-34",
+      "fiche": "problem-interview",
+      "q": "Which interview type does Week 3 focus on?",
+      "correct": "The problem interview",
+      "wrong": [
+        "The solution interview",
+        "The expert interview",
+        "The sales interview"
+      ],
+      "why": "Trois types : problème (le problème existe-t-il ?), solution (aide-t-elle ?), expert (comment marche le marché ?). Week 3 = problème uniquement."
+    },
+    {
+      "id": "cd-35",
+      "fiche": "problem-interview",
+      "q": "Which answer is the STRONGEST evidence in a problem interview?",
+      "correct": "\"I spent 3 hours on it and built a workaround\"",
+      "wrong": [
+        "\"This is usually difficult for people like me\"",
+        "\"Great idea, I think it will really help\"",
+        "\"Next time I would probably try that out\""
+      ],
+      "why": "Temps dépensé, argent payé ou contournement construit = comportement réel. « Great idea » est la plus faible."
+    },
+    {
+      "id": "cd-36",
+      "fiche": "problem-interview",
+      "q": "In the transcript excerpt (email date vs WhatsApp date), what possible pivot is suggested?",
+      "correct": "The problem may be source trust, not memory or reminders",
+      "wrong": [
+        "The problem is that students simply forget their deadlines",
+        "The solution should clearly be a new reminders app",
+        "There is no real problem here that needs to be solved"
+      ],
+      "why": "Le participant ne savait pas quelle source était officielle. Un seul épisode peut changer la définition du problème."
+    },
+    {
+      "id": "cd-37",
+      "fiche": "interview-guide",
+      "q": "Which are the five parts of the interview guide?",
+      "correct": "Opening and consent, context, recent episode, actions and impact, closing",
+      "wrong": [
+        "Pitch, demo, feedback, pricing and a closing thank-you note",
+        "Introduction, features list, ranking, budget question, thanks",
+        "Context, proposed solution, objections, pricing, contract signing"
+      ],
+      "why": "C'est un itinéraire, pas un questionnaire rigide. L'épisode récent est le cœur de l'interview."
+    },
+    {
+      "id": "cd-38",
+      "fiche": "interview-guide",
+      "q": "How should the interview opening treat the product?",
+      "correct": "It should not name the product or imply the problem is proven",
+      "wrong": [
+        "It should present the product first to build interest",
+        "It should promise a discount as a reward for taking part",
+        "It should describe the planned solution in some detail"
+      ],
+      "why": "Une ouverture neutre réduit l'envie de faire plaisir. On précise la durée, la prise de notes et le droit de sauter une question."
+    },
+    {
+      "id": "cd-39",
+      "fiche": "interview-guide",
+      "q": "Which way of closing the interview is recommended?",
+      "correct": "Ask what important question you missed and who else to speak with",
+      "wrong": [
+        "Ask what they think of your idea and whether they like it",
+        "Ask them to promise they will buy the product later",
+        "Thank them and end the call without any follow-up plan"
+      ],
+      "why": "Clôture : question manquée, recontact, autres personnes, document anonymisable. Ne jamais finir par « So, what do you think of our idea? »"
+    },
+    {
+      "id": "cd-40",
+      "fiche": "interview-guide",
+      "q": "In the Task 1.1 grading, which part is worth the MOST points?",
+      "correct": "Two anonymised interview records (30 points)",
+      "wrong": [
+        "Problem-interview guide (25 points)",
+        "Analysis and methodological self-check (20 points)",
+        "Segment Portrait and hypothesis (15 points)"
+      ],
+      "why": "Barème sur 100 : records 30 ; guide 25 ; analyse + self-check 20 ; portrait + hypothèse 15 ; respondent fit + éthique 10."
+    },
+    {
+      "id": "cd-41",
+      "fiche": "interview-guide",
+      "q": "When are the real interviews for Task 1.1 conducted and the package submitted?",
+      "correct": "Interviews after Week 4; submission before Week 5 begins",
+      "wrong": [
+        "Interviews in Week 3; submission after the end of Week 5",
+        "Interviews in Week 2; submission during the Week 3 class",
+        "Interviews after Week 5; submission at the end of the term"
+      ],
+      "why": "Week 3 = guide + pilote. Interviews réelles seulement après la Week 4. Rendu en un seul fichier avant le début de la Week 5."
+    },
+    {
+      "id": "cd-42",
+      "fiche": "analysis",
+      "q": "What is the correct order of the analytical process in Week 5?",
+      "correct": "Evidence → Codes → Themes → Patterns → Insights",
+      "wrong": [
+        "Themes → Evidence → Codes → Insights → Patterns",
+        "Codes → Themes → Evidence → Patterns → Insights",
+        "Insights → Patterns → Themes → Codes → Evidence"
+      ],
+      "why": "On part des données brutes, on extrait la preuve, on code, on regroupe en thèmes, on cherche les patterns, puis on formule des insights."
+    },
+    {
+      "id": "cd-43",
+      "fiche": "analysis",
+      "q": "What is the difference between a code and a theme?",
+      "correct": "A code is a specific label; a theme groups related codes",
+      "wrong": [
+        "A code is a broad concept; a theme is a specific label",
+        "They are two different names for exactly the same thing",
+        "A theme is a direct quote; a code is an interpretation"
+      ],
+      "why": "Codes = briques de construction (Time pressure, Price sensitivity). Thème = concept plus large qui les relie (TIME & CONVENIENCE)."
+    },
+    {
+      "id": "cd-44",
+      "fiche": "analysis",
+      "q": "Which is a good code according to the course?",
+      "correct": "Need for predictability",
+      "wrong": [
+        "Problem with the service",
+        "Bad experience overall",
+        "Customer feedback"
+      ],
+      "why": "Un bon code est court, spécifique, significatif et réutilisable. « Problem », « Customer », « App », « Bad experience » sont trop vagues."
+    },
+    {
+      "id": "cd-45",
+      "fiche": "analysis",
+      "q": "What does inductive coding mean?",
+      "correct": "Let categories emerge from the data instead of forcing your hypothesis",
+      "wrong": [
+        "Start from the hypothesis and look for confirming quotes only",
+        "Copy the customer's own words as codes without interpreting",
+        "Code only the most frequently mentioned comments in each interview"
+      ],
+      "why": "DATA → CODE → THEME. On laisse les catégories émerger de ce que les clients ont dit et fait."
+    },
+    {
+      "id": "cd-46",
+      "fiche": "analysis",
+      "q": "Which is an insight rather than a solution?",
+      "correct": "Customers struggle to maintain usage when their routine changes",
+      "wrong": [
+        "We should add reminders and push notifications to the product",
+        "We should lower the delivery fee for all student customers",
+        "We should build a loyalty program to keep users engaged"
+      ],
+      "why": "Insight ≠ solution. L'insight explique un motif ; la solution (« add reminders ») vient seulement après : evidence → pattern → insight → what to test next."
+    },
+    {
+      "id": "cd-47",
+      "fiche": "analysis",
+      "q": "Why is frequency 'not everything' when identifying patterns?",
+      "correct": "One highly consequential behaviour can matter more than several casual comments",
+      "wrong": [
+        "Only the most frequent statement is ever relevant to the analysis, whatever its context",
+        "Frequency can never be used at all when analysing interview data of any kind",
+        "Casual comments are always more reliable than a single consequential behaviour"
+      ],
+      "why": "Il faut aussi regarder l'intensité, les conséquences comportementales, le contexte, la cohérence."
+    },
+    {
+      "id": "cd-48",
+      "fiche": "analysis",
+      "q": "In the food-delivery demo, what code fits 'I see the delivery fee and decide not to order'?",
+      "correct": "Price sensitivity",
+      "wrong": [
+        "Need for predictability",
+        "Preference for familiarity",
+        "Lack of time"
+      ],
+      "why": "Preuve : le tarif de livraison influence la décision → code Price sensitivity → thème Cost."
+    },
+    {
+      "id": "cd-49",
+      "fiche": "analysis",
+      "q": "What must a Current-State Customer Journey Map describe?",
+      "correct": "What customers experience now, based on interview evidence",
+      "wrong": [
+        "The ideal future experience customers will have with our product",
+        "The company's internal sales process from lead to signed deal",
+        "The list of features that are planned for the next release"
+      ],
+      "why": "État actuel, pas futur idéal. Étapes possibles : Need → Discovery → Consideration → Adoption → Use → Friction → Drop-off / Continued use."
+    },
+    {
+      "id": "cd-50",
+      "fiche": "analysis",
+      "q": "After analysis, which is NOT a valid status for the original hypothesis?",
+      "correct": "Proven with certainty",
+      "wrong": [
+        "Partially supported",
+        "Challenged",
+        "Inconclusive / needs more research"
+      ],
+      "why": "Statuts : Supported, Partially supported, Challenged, Inconclusive. On ne prouve jamais avec certitude, et on ne change pas l'hypothèse parce qu'elle « sonne mieux »."
+    }
+  ]
+}
