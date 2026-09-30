@@ -1,0 +1,712 @@
+{
+  "id": "lodging",
+  "emoji": "🏨",
+  "name": {
+    "fr": "Lodging and Accommodation",
+    "en": "Lodging and Accommodation Management"
+  },
+  "teacher": "Altynay Tynyshbekova (AlmaU)",
+  "coverage": "Lectures 1 à 5 (hospitality, hébergement, front office, housekeeping, contrôle qualité) + vos cas pratiques (Accor, Novotel Almaty, Late Check-out). Les diapos-images (statuts de chambre, défauts courants) n'ont pas pu être lues.",
+  "fiches": [
+    {
+      "id": "hospitality-industry",
+      "title": {
+        "fr": "L'industrie de l'hospitalité et ses caractéristiques",
+        "en": "The hospitality industry and its characteristics"
+      },
+      "body": {
+        "fr": [
+          "**Définition (Oxford English Dictionary)** : l'accueil et le divertissement des invités, visiteurs ou étrangers **avec libéralité et bonne volonté**.",
+          "**Secteurs de l'hospitalité** : hébergement (lodging), restauration, clubs, bateaux de croisière, jeux (gaming), parcs à thème, sport et divertissement, voyage. **Hospitalité ≠ tourisme** : le tourisme & voyage est un ensemble plus large (compagnies aériennes, agences, cartes/guides, événements sportifs, etc.).",
+          "**Chiffres** : Voyage & Tourisme = **9,8 % du PIB mondial** (11,6 billions $) ; **366 millions d'emplois** (≈ **1 emploi sur 9**) ; **1,54 milliard** d'arrivées internationales ; 2,02 billions $ de dépenses de visiteurs internationaux. STR suit 94 000 hôtels / 12 M de chambres dans 190+ pays (échantillon suivi, pas le total mondial).",
+          "**5 caractéristiques** du secteur : **Inseparability** (production et consommation simultanées), **Perishability** (une chambre non vendue est perdue), **Labor-intensive**, **Repetitive**, **Intangibility**.",
+          "**Composantes** : Lodging Operations · Food & Beverage Operations · Retail Stores · Activities · Transportation Services.",
+          "**Source du cours** : Barrows, Powers & Reynolds, *Introduction to Management in the Hospitality Industry* (10th ed., 2012)."
+        ],
+        "en": [
+          "**Definition (Oxford English Dictionary)**: the reception and entertainment of guests, visitors or strangers **with liberality and good will**.",
+          "**Hospitality sectors**: lodging, food service, clubs, cruise ships, gaming, theme parks, sports and entertainment, travel. **Hospitality ≠ tourism**: travel & tourism is a broader set (airlines, travel agencies, maps & guides, sporting events, etc.).",
+          "**Numbers**: Travel & Tourism = **9.8% of global GDP** ($11.6 trillion); **366 million jobs** (≈ **1 in 9 jobs**); **1.54 billion** international overnight arrivals; $2.02 trillion international visitor spending. STR tracks 94,000 hotels / 12 million rooms in 190+ countries (a tracked sample, not the world total).",
+          "**5 characteristics**: **Inseparability** (production and consumption at once), **Perishability** (an unsold room is lost), **Labor-intensive**, **Repetitive**, **Intangibility**.",
+          "**Components**: Lodging Operations · Food & Beverage Operations · Retail Stores · Activities · Transportation Services.",
+          "**Course source**: Barrows, Powers & Reynolds, *Introduction to Management in the Hospitality Industry* (10th ed., 2012)."
+        ]
+      }
+    },
+    {
+      "id": "classification",
+      "title": {
+        "fr": "Classification des hôtels et divisions",
+        "en": "Hotel classification and divisions"
+      },
+      "body": {
+        "fr": [
+          "**Par taille** : **Small scale** (moins de 150 chambres) · **Medium scale** (150 à 299) · **Large scale** (300 et plus).",
+          "**Par marché cible** : Commercial, Airport, Suite, Residential, Resort, Bed & Breakfast, Time-Share & Condominium, Casino, Conference Centers, Convention Hotels, Alternative Lodging Properties.",
+          "**Par niveau de service** : **World-class service** · **Medium-range service** · **Economy / Limited service**.",
+          "**Par propriété et affiliation** : **Chain hotels** (via **Management contract** ou **Franchise**) ou **Independent**.",
+          "**Par localisation** : City center · Suburban · Resort · Airport · Highway.",
+          "**Raisons de voyager** : Business travel · Pleasure travel · Group travel.",
+          "**Divisions de l'hôtel** : **Rooms Division** (Housekeeping, Front Office, Retail Outlets, Recreation, Casino) + autres divisions : Food & Beverage, Kitchen, Sales & Marketing, Accounting, Engineering & Maintenance, Security, Human Resources.",
+          "**Cas pratique de groupe (Accor)** : 8 questions pour présenter une marque hôtelière (fondation, marques, marché cible, niveau de service, présence, exemples, différenciation, type de client)."
+        ],
+        "en": [
+          "**By size**: **Small scale** (under 150 rooms) · **Medium scale** (150 to 299) · **Large scale** (300 and above).",
+          "**By target market**: Commercial, Airport, Suite, Residential, Resort, Bed & Breakfast, Time-Share & Condominium, Casino, Conference Centers, Convention Hotels, Alternative Lodging Properties.",
+          "**By level of service**: **World-class service** · **Medium-range service** · **Economy / Limited service**.",
+          "**By ownership and affiliation**: **Chain hotels** (via **Management contract** or **Franchise**) or **Independent**.",
+          "**By location**: City center · Suburban · Resort · Airport · Highway.",
+          "**Reasons for traveling**: Business travel · Pleasure travel · Group travel.",
+          "**Hotel divisions**: **Rooms Division** (Housekeeping, Front Office, Retail Outlets, Recreation, Casino) + other divisions: Food & Beverage, Kitchen, Sales & Marketing, Accounting, Engineering & Maintenance, Security, Human Resources.",
+          "**Group practice (Accor)**: 8 questions to present a hotel brand (founding, brands, target market, level of service, presence, examples, differentiation, guest type)."
+        ]
+      }
+    },
+    {
+      "id": "accommodation-types",
+      "title": {
+        "fr": "Les types d'hébergement (Lecture 2)",
+        "en": "Accommodation types (Lecture 2)"
+      },
+      "body": {
+        "fr": [
+          "**City centre hotels** : au cœur de la ville, du business au luxe. **Airport hotels** : pensés pour les voyageurs aériens, souvent navette vers l'aéroport. **Suburban hotels** : plus petits, service complet, en banlieue.",
+          "**Highway hotels / Motels** : nuit pour voyageurs en voiture, équipements basiques, chambres avec accès direct au parking, en périphérie des villes.",
+          "**Convention hotels** : jusqu'à **2 000 chambres ou plus**, vastes espaces de réunion et de banquet, blanchisserie interne, business centre, room service 24h, proches des centres de congrès. **Commercial hotels** : en centre-ville, **plus petits** que les convention hotels, moins d'espaces de réunion et de banquet.",
+          "**Resort hotels** : cadre pittoresque, parfois isolé ; les clients viennent de loin et **restent plus longtemps** ; large gamme d'activités de loisirs et de restauration. **Spa hotels** : soins, programmes bien-être (relaxation, fitness, pilates/yoga), personnel professionnel (diététiciens, thérapeutes…).",
+          "**Timeshares / Vacation ownership** : on achète le **droit d'utiliser la propriété une partie de chaque année** (souvent avec un acte, transmissible aux héritiers). **Casino hotels** : les jeux sont les principales sources de revenus + spectacles, luxe, restauration.",
+          "**All-suite hotels** : chambres **plus grandes** avec zones séparées (travail, sommeil, détente, salon), parfois cuisine. **Boutique hotels** : « design » ou « lifestyle », **personnalisés**, plus intimes, prix très variables, pas toujours Wi-Fi/clim/TV.",
+          "**Extended-stay / Serviced apartments** : séjours prolongés, cuisine complète, services limités de housekeeping. **Historic conversion hotels** : bâtiments historiques reconvertis en gardant leur caractère.",
+          "**Bed & Breakfast inns** : maisons privées avec petit-déjeuner, hôte qui conseille, souvent rural. **Guest houses** : proches des B&B, du petit budget à l'appartement de luxe. **Hostels** : très bon marché, dortoirs, cuisine partagée. **Cabins** : chambres sur un bateau/train. **Villas / Chalets** : logement en autonomie (self-catering), ski et plage."
+        ],
+        "en": [
+          "**City centre hotels**: in the heart of a city, from business to luxury. **Airport hotels**: designed for air travellers, often with airport transfers. **Suburban hotels**: smaller, full service, in suburban areas.",
+          "**Highway hotels / Motels**: overnight stays for car travellers, basic facilities, rooms with direct access to the parking lot, on the outskirts of towns.",
+          "**Convention hotels**: **2,000 rooms or more**, extensive meeting and banquet space, in-house laundry, business centre, 24h room service, near convention centres. **Commercial hotels**: downtown, **smaller** than convention hotels, less meeting and banquet space.",
+          "**Resort hotels**: picturesque, sometimes remote settings; guests travel far and **stay longer**; broad recreation and dining options. **Spa hotels**: treatments and wellness programmes (relaxation, fitness, pilates/yoga), professional staff (dieticians, therapists…).",
+          "**Timeshares / Vacation ownership**: the buyer purchases the **right to use the property for a portion of each year** (often with a deed, can be handed to heirs). **Casino hotels**: gambling is the major revenue centre + entertainment, luxury, dining.",
+          "**All-suite hotels**: **larger** rooms with separate areas (working, sleeping, relaxing, parlour), sometimes a kitchen. **Boutique hotels**: “design” or “lifestyle”, **personalized**, more intimate, prices vary greatly, may lack Wi-Fi/AC/TV.",
+          "**Extended-stay / Serviced apartments**: long stays, full kitchen, limited housekeeping. **Historic conversion hotels**: historic buildings converted into lodging keeping their character.",
+          "**Bed & Breakfast inns**: private homes with breakfast, host gives local advice, often rural. **Guest houses**: similar to B&Bs, from low-budget to luxury apartments. **Hostels**: very cheap, dormitory style, shared kitchen. **Cabins**: bedrooms on a ship or train. **Villas / Chalets**: self-catering, ski and beach resorts."
+        ]
+      }
+    },
+    {
+      "id": "demand-rates",
+      "title": {
+        "fr": "Demande de chambres, saisonnalité, cycle client, tarifs",
+        "en": "Room demand, seasonality, guest cycle, room rates"
+      },
+      "body": {
+        "fr": [
+          "**Formule du nombre de chambres nécessaires** : **R = (T × P × L) / (S × N)** — T = nombre de touristes ; P = pourcentage logeant à l'hôtel ; L = durée moyenne de séjour ; S = jours d'activité par an (365) ; N = nombre de personnes par chambre. Puis diviser par le **taux d'occupation (O)** visé.",
+          "**Exemple du cours** : T = 1 560 000 ; P = 98 % ; L = 9 jours ; N = 1,69 ; S = 365 → **R ≈ 22 306 chambres à 100 % d'occupation** ; à **70 %** d'occupation : 22 306 / 0,70 ≈ **31 866 chambres**.",
+          "**Saisonnalité** (demande fluctuante sur l'année) : peut être réduite par des **différenciations de prix** (et par de multiples segments de clientèle).",
+          "**Guest cycle (4 phases)** : **A – Pre-arrival** (réservation, information, transport…) · **B – Arrival** (check-in et enregistrement, attribution de chambre, remise de la clé, bagages) · **C – Occupancy** (séjour : messages, wake-up call, compte client, change…) · **D – Departure** (règlement de la note, check-out).",
+          "**Facteurs qui déterminent le tarif** : type, taille, décor et emplacement de la chambre · saison et événements · **meal plan** · type de client · durée de séjour et jour de la semaine.",
+          "**Devoir** : choisir un hôtel d'Almaty : type d'hébergement, client cible, positionnement, 3 services clés, tarif approximatif (présentation de 7 min, 5 slides)."
+        ],
+        "en": [
+          "**Formula for number of rooms required**: **R = (T × P × L) / (S × N)** — T = number of tourists; P = percentage staying in hotels; L = average length of stay; S = days per year in business (365); N = guests per room. Then divide by the target **occupancy (O)**.",
+          "**Course example**: T = 1,560,000; P = 98%; L = 9 days; N = 1.69; S = 365 → **R ≈ 22,306 rooms at 100% occupancy**; at **70%** occupancy: 22,306 / 0.70 ≈ **31,866 rooms**.",
+          "**Seasonality** (demand fluctuating through the year): can be reduced by **price differentials** (and by multiple customer segments).",
+          "**Guest cycle (4 stages)**: **A – Pre-arrival** (reservation, mail and information, transport…) · **B – Arrival** (check-in and registration, room assignment, issuing of key, baggage) · **C – Occupancy** (stay: messages, wake-up call, guest account, currency exchange…) · **D – Departure** (bill settlement, check-out).",
+          "**Factors affecting the room rate**: type, size, décor and location of the room · season and seasonal events · **meal plan** · kind of guest · length of stay and day of the week.",
+          "**Homework**: choose one Almaty hotel: accommodation type, target guest, positioning, 3 key services, approximate rate (7-minute presentation, 5 slides)."
+        ]
+      }
+    },
+    {
+      "id": "front-office",
+      "title": {
+        "fr": "Front Office : rôle, postes, communication (Lecture 3)",
+        "en": "Front Office: role, positions, communication (Lecture 3)"
+      },
+      "body": {
+        "fr": [
+          "**Front Office ≠ Reception.** C'est le département de contact direct avec le client, qui coordonne toute l'expérience du séjour.",
+          "**Pourquoi c'est important** : crée la **première impression** · contact direct avec les clients · **coordonne les demandes** · soutient les **revenus** · **relie les départements** · influence la **satisfaction**. Le Front Office est un **hub de communication**.",
+          "**Front Office Manager** : People, Operations, Guest experience, Revenue, Standards, Coordination. *Un bon manager ne résout pas tout lui-même : il construit une équipe qui sait résoudre les problèmes.*",
+          "**Front Desk Agent** : check-in/check-out, informations, attribution des chambres, paiements, gestion des clés, demandes clients, communication, résolution de problèmes.",
+          "**Guest Relations** : personnalisation, satisfaction, occasions spéciales, **plaintes et récupération (recovery)**, clients VIP/fidélité. **Reservations** : Inquiry → Availability → Rate → Booking → Confirmation → Special requests.",
+          "**Avant l'arrivée (pre-arrival)** : réservation, confirmation, demandes spéciales, coordination de la préparation de chambre, identification VIP, préférences, transport.",
+          "**Arrivée** : Greeting → Identification → Reservation check → Registration → Payment/guarantee → Room assignment → Key → Information.",
+          "**Pendant le séjour** : demandes, informations, réveils, messages, réservations, transport, restaurants, change, plaintes, comptes clients, coordination avec les départements.",
+          "**Communication** : **Listen → Understand → Clarify → Act → Follow up**.",
+          "**Revenus** : upselling, surclassements (upgrades), services additionnels, application correcte du tarif, gestion de la disponibilité.",
+          "**Carte des problèmes** : chambre pas prête, surbooking, mauvais type de chambre, réservation manquante, problème de paiement, demande VIP non préparée, plainte, chambre bruyante, arrivée anticipée, late check-out, client difficile."
+        ],
+        "en": [
+          "**Front Office ≠ Reception.** It is the department in direct contact with the guest, coordinating the whole stay experience.",
+          "**Why it matters**: creates the **first impression** · direct contact with guests · **coordinates requests** · supports **revenue** · **connects departments** · influences **satisfaction**. The Front Office is a **communication hub**.",
+          "**Front Office Manager**: People, Operations, Guest experience, Revenue, Standards, Coordination. *A good manager doesn’t solve every problem personally: they build a team that can.*",
+          "**Front Desk Agent**: check-in/check-out, guest information, room assignment, payments, key management, guest requests, communication, problem solving.",
+          "**Guest Relations**: personalization, satisfaction, special occasions, **complaints & recovery**, VIP/loyalty guests. **Reservations**: Inquiry → Availability → Rate → Booking → Confirmation → Special requests.",
+          "**Pre-arrival**: reservation, confirmation, special requests, room preparation coordination, VIP identification, preferences, transportation.",
+          "**Arrival**: Greeting → Identification → Reservation check → Registration → Payment/guarantee → Room assignment → Key → Information.",
+          "**During the stay**: requests, information, wake-up calls, messages, reservations, transportation, restaurant bookings, currency exchange, complaints, guest accounts, coordination with departments.",
+          "**Communication**: **Listen → Understand → Clarify → Act → Follow up**.",
+          "**Revenue**: upselling, room upgrades, additional services, correct rate application, availability management.",
+          "**Problem map**: room not ready, overbooking, wrong room type, missing reservation, payment problem, VIP request not prepared, guest complaint, noisy room, early arrival, late check-out, difficult guest."
+        ]
+      }
+    },
+    {
+      "id": "housekeeping",
+      "title": {
+        "fr": "Housekeeping : rôle, statuts, coordination, vie privée (Lecture 4)",
+        "en": "Housekeeping: role, status, coordination, privacy (Lecture 4)"
+      },
+      "body": {
+        "fr": [
+          "**Pourquoi c'est important** : **Guest experience** (chambres propres et confortables) · **Hotel reputation** (la propreté se remarque tout de suite) · **Revenue** (une chambre non propre et prête **ne peut pas être vendue**) · **Safety & hygiene**.",
+          "**Structure** : **Executive Housekeeper** dirige le département ; **Room Attendant / Housekeeper** : nettoie les chambres, fait les lits, nettoie les salles de bain, remplace les amenities, réapprovisionne, signale les problèmes de maintenance et les objets trouvés, maintient les standards.",
+          "**Coordination Housekeeping ↔ Front Office** : Front Office a besoin de la disponibilité des chambres, du **statut exact**, des arrivées anticipées, VIP, late check-outs, changements de chambre, problèmes de maintenance. Housekeeping a besoin des arrivées, départs, infos VIP, **priorités de chambres**, demandes spéciales, extensions / late check-outs.",
+          "**Statuts d'une chambre** (vus par le Front Office) : clean, dirty, inspected, out-of-order (et autres). *Une chambre déclarée prête qui ne l'est pas est un problème majeur de coordination.*",
+          "**Vie privée (Guest privacy)** : **frapper** avant d'entrer ; annoncer **« Housekeeping »** ; respecter les panneaux **Do Not Disturb** ; **ne jamais discuter** des informations d'un client ; ne pas toucher inutilement aux effets personnels ; signaler les situations suspectes ; suivre les procédures de sécurité.",
+          "**Housekeeping Problem Solver** : 1. quel est le problème ? 2. que faire en premier ? 3. qui informer ? 4. quelle solution ? 5. comment l'éviter à l'avenir ?",
+          "**Votre cas « Late Check-out vs Urgent Arrival »** : deux engagements se percutent sur la même chambre (late check-out approuvé + arrivée imminente). **Première action** : vérifier le statut en temps réel dans le **PMS** (Vacant/Occupied, Due Out) et contacter le Front Office. **Informer** : Front Office, Executive Housekeeper / Floor Supervisor, le client entrant. **Solution** : demander poliment au client de partir un peu plus tôt, proposer au nouvel arrivant un arrivage plus tard / accès lounge / une autre chambre **Inspected**, chambre en priorité ensuite. **Prévention** : n'accorder un late check-out qu'après avoir croisé arrivées et prévisions d'occupation, renforcer la communication en temps réel, prévoir un **temps tampon** minimal les jours de forte occupation."
+        ],
+        "en": [
+          "**Why it matters**: **Guest experience** (clean, comfortable rooms) · **Hotel reputation** (guests notice cleanliness immediately) · **Revenue** (a room **cannot be sold** if it is not clean and ready) · **Safety & hygiene**.",
+          "**Structure**: **Executive Housekeeper** heads the department; **Room Attendant / Housekeeper**: cleans rooms, makes beds, cleans bathrooms, replaces amenities, replenishes supplies, reports maintenance issues and lost & found items, maintains standards.",
+          "**Housekeeping ↔ Front Office coordination**: Front Office needs room availability, **accurate room status**, early arrivals, VIP arrivals, late check-outs, room changes, maintenance issues. Housekeeping needs arrivals, departures, VIP information, **room priorities**, special requests, extensions / late check-outs.",
+          "**Room status** (as seen by Front Office): clean, dirty, inspected, out-of-order (and others). *A room reported ready that is not is a major coordination problem.*",
+          "**Guest privacy**: **knock** before entering; announce **“Housekeeping”**; respect **Do Not Disturb** signs; **never discuss** guest information; do not touch personal belongings unnecessarily; report suspicious situations; follow hotel security procedures.",
+          "**Housekeeping Problem Solver**: 1. what is the problem? 2. what should be done first? 3. who should be informed? 4. what solution? 5. how to prevent it?",
+          "**Your “Late Check-out vs Urgent Arrival” case**: two commitments collide over the same room (approved late check-out + imminent arrival). **First action**: check real-time status in the **PMS** (Vacant/Occupied, Due Out) and contact Front Office. **Inform**: Front Office, Executive Housekeeper / Floor Supervisor, the incoming guest. **Solution**: politely ask the departing guest to leave a little earlier, offer the new guest a later arrival / lounge access / another **Inspected** room, then prioritise the room. **Prevention**: grant late check-outs only after cross-checking arrivals and occupancy forecast, strengthen real-time communication, set a **buffer time** on high-occupancy days."
+        ]
+      }
+    },
+    {
+      "id": "quality-control",
+      "title": {
+        "fr": "Contrôle qualité et inspection des chambres (Lecture 5)",
+        "en": "Quality control and room inspection (Lecture 5)"
+      },
+      "body": {
+        "fr": [
+          "**Le nettoyage n'est pas la dernière étape.** **Quality control** = vérifier que la chambre respecte les standards de l'hôtel : propreté, condition, amenities, équipements, présentation, **guest readiness**.",
+          "**Qui contrôle ?** **Room Attendant → Clean** ; **Supervisor → Inspect**. Inspecteurs possibles : Housekeeping Supervisor / chefs de département / Guest Relations / Quality Manager. Rôle : inspecter les chambres nettoyées, identifier les défauts, vérifier les standards, **donner un feedback aux room attendants**, coordonner les corrections, vérifier que les chambres sont prêtes.",
+          "**À vérifier** : **General appearance** (entrée, odeur, éclairage, état général) · **Bedroom** (lit et linge, mobilier, surfaces, sol, fenêtres) · **Bathroom** (WC, lavabo, douche, miroir, serviettes, amenities) · **Equipment** (TV, téléphone, climatisation, lumières).",
+          "**Cleanliness vs Condition** : **Cleanliness** = poussière, taches, cheveux, traces de doigts, saleté, mauvaise odeur ; **Condition** = équipement cassé, mobilier abîmé, robinet qui fuit, ampoule grillée, problèmes de maintenance. **Une chambre peut être propre mais quand même pas prête.**",
+          "**Exercice de checklist** : créer une checklist de **10 à 15 points** d'inspection (bedroom, bathroom, amenities, equipment, cleanliness, overall condition) avant de libérer la chambre au client."
+        ],
+        "en": [
+          "**Cleaning is not the final step.** **Quality control** = checking whether the room meets hotel standards: cleanliness, condition, amenities, equipment, presentation, **guest readiness**.",
+          "**Who checks?** **Room Attendant → Clean**; **Supervisor → Inspect**. Possible inspectors: Housekeeping Supervisor / Heads of Departments / Guest Relations / Quality Manager. Role: inspect cleaned rooms, identify defects, check standards, **give feedback to room attendants**, coordinate corrections, verify rooms are ready.",
+          "**What to check**: **General appearance** (entrance, smell, lighting, overall condition) · **Bedroom** (bed & linen, furniture, surfaces, floor, windows) · **Bathroom** (toilet, sink, shower, mirror, towels, amenities) · **Equipment** (TV, telephone, AC, lights).",
+          "**Cleanliness vs Condition**: **Cleanliness** = dust, stains, hair, fingerprints, dirt, unpleasant smell; **Condition** = broken equipment, damaged furniture, leaking tap, burned-out light, maintenance problems. **A room can be clean but still not be ready.**",
+          "**Checklist exercise**: create a checklist of **10–15 inspection points** (bedroom, bathroom, amenities, equipment, cleanliness, overall condition) before releasing the room to the guest."
+        ]
+      }
+    },
+    {
+      "id": "accor-novotel",
+      "title": {
+        "fr": "Cas pratiques : Accor et Novotel Almaty City Center",
+        "en": "Group cases: Accor and Novotel Almaty City Center"
+      },
+      "body": {
+        "fr": [
+          "**Accor** : fondé en **1967** près de **Lille** (premier **Novotel**) par **Paul Dubrule et Gérard Pélisson** ; **1983** fusion qui crée Accor (bourse de Paris). Siège à Paris, **leader hôtelier européen**.",
+          "**Marques** : **45+ marques en 5 niveaux** : Luxury (Raffles, Fairmont, Sofitel, MGallery, Orient Express) · Premium (Pullman, Swissôtel, Mövenpick, Grand Mercure) · Midscale (Novotel, Mercure, Adagio, TRIBE) · Economy (ibis, ibis Styles, ibis budget, hotelF1) · Lifestyle Ennismore (The Hoxton, Mama Shelter, SLS, Mondrian).",
+          "**Présence** (chiffres de votre présentation) : **110+ pays**, 5 800+ hôtels, 880 000+ chambres ; 7e groupe mondial en chambres. **Marchés cibles** : business, pleasure, group, long stay. **Niveaux de service** : les trois (world-class, medium-range, economy).",
+          "**Ce qui rend Accor différent** : **45+ marques** (le plus large portefeuille) · programme de fidélité **ALL (~100 M de membres)** · modèle **asset-light** (management et franchise) · collection lifestyle **Ennismore**.",
+          "**Novotel Almaty City Center** : 4 étoiles, ≈ **190 chambres**, ouvert en **2018**, groupe Accor. Type : **city centre hotel**, **commercial hotel**, chain hotel milieu de gamme, sur l'avenue Dostyk près du métro Abai. Cibles : voyageurs d'affaires (réunions, banquets, Wi-Fi, business center) et de loisirs (couples, familles, téléphérique Kok-Tobe, piscine, spa, restaurant *Le RestO*). Services clés : **Business & events** (6 salles de réunion, jusqu'à 220 places, banquets jusqu'à 150), **Dining**, **Wellness**.",
+          "**Tarifs (relevés en septembre 2026)** : environ **130 à 310 USD/nuit** ; chambre standard 25 m² ≈ 133-137 USD ; Superior ≈ 163-210 ; King ≈ 224-249. Le tarif dépend du type de chambre, du meal plan, de la saison, du type de client, de la durée et du jour de la semaine (Lecture 2)."
+        ],
+        "en": [
+          "**Accor**: founded in **1967** near **Lille** (first **Novotel**) by **Paul Dubrule and Gérard Pélisson**; **1983** merger creates Accor (Paris stock exchange). Headquartered in Paris, **Europe’s leading hotel group**.",
+          "**Brands**: **45+ brands in 5 tiers**: Luxury (Raffles, Fairmont, Sofitel, MGallery, Orient Express) · Premium (Pullman, Swissôtel, Mövenpick, Grand Mercure) · Midscale (Novotel, Mercure, Adagio, TRIBE) · Economy (ibis, ibis Styles, ibis budget, hotelF1) · Lifestyle Ennismore (The Hoxton, Mama Shelter, SLS, Mondrian).",
+          "**Presence** (figures from your presentation): **110+ countries**, 5,800+ hotels, 880,000+ rooms; 7th largest group by rooms. **Target markets**: business, pleasure, group, long stay. **Service levels**: all three (world-class, medium-range, economy).",
+          "**What makes Accor different**: **45+ brands** (widest portfolio) · **ALL loyalty programme (~100M members)** · **asset-light** model (management and franchise) · **Ennismore** lifestyle collection.",
+          "**Novotel Almaty City Center**: 4-star, ≈ **190 rooms**, opened **2018**, Accor group. Type: **city centre hotel**, **commercial hotel**, mid-range chain hotel, on Dostyk Avenue near Abai metro. Targets: business travellers (meetings, banquets, Wi-Fi, business centre) and leisure travellers (couples, families, Kok-Tobe cable car, pool, spa, restaurant *Le RestO*). Key services: **Business & events** (6 meeting rooms, up to 220 seats, banquets up to 150), **Dining**, **Wellness**.",
+          "**Rates (checked September 2026)**: about **USD 130–310 per night**; standard 25 m² room ≈ 133–137; Superior ≈ 163–210; King ≈ 224–249. The rate depends on room type, meal plan, season, kind of guest, length of stay and day of the week (Lecture 2)."
+        ]
+      }
+    }
+  ],
+  "qcm": [
+    {
+      "id": "lo-01",
+      "fiche": "hospitality-industry",
+      "q": "According to the Oxford English Dictionary quoted in Lecture 1, hospitality is:",
+      "correct": "The reception and entertainment of guests, visitors or strangers with liberality and good will",
+      "wrong": [
+        "The exchange of paid lodging and services for a fixed nightly rate to travellers",
+        "The management of hotels through franchise and management contracts worldwide",
+        "The industry of transporting people between different tourist destinations by air"
+      ],
+      "why": "Définition citée dans le cours. Hospitalité ≠ tourisme : le tourisme & voyage est un ensemble plus large (compagnies aériennes, agences de voyage, etc.)."
+    },
+    {
+      "id": "lo-02",
+      "fiche": "hospitality-industry",
+      "q": "Which of these is NOT listed as a characteristic of the hospitality industry?",
+      "correct": "Storability",
+      "wrong": [
+        "Perishability",
+        "Intangibility",
+        "Inseparability"
+      ],
+      "why": "Les 5 caractéristiques : inseparability, perishability, labor-intensive, repetitive, intangibility. Une chambre invendue est perdue : c'est la périssabilité, pas la stockabilité."
+    },
+    {
+      "id": "lo-03",
+      "fiche": "hospitality-industry",
+      "q": "Roughly what share of global jobs is supported by Travel & Tourism, according to the lecture?",
+      "correct": "About 1 in 9",
+      "wrong": [
+        "About 1 in 2",
+        "About 1 in 25",
+        "About 1 in 50"
+      ],
+      "why": "366 millions d'emplois, soit environ 1 emploi sur 9 dans le monde ; le secteur représente 9,8 % du PIB mondial."
+    },
+    {
+      "id": "lo-04",
+      "fiche": "hospitality-industry",
+      "q": "Why does an unsold hotel room illustrate 'perishability'?",
+      "correct": "Its revenue for that night is lost and cannot be stored",
+      "wrong": [
+        "The room's furniture deteriorates a little with each night",
+        "The room has to be cleaned again for the next guest",
+        "Guests forget the room after only one single stay"
+      ],
+      "why": "Une nuit non vendue est un revenu définitivement perdu : on ne peut pas stocker l'inventaire de chambres."
+    },
+    {
+      "id": "lo-05",
+      "fiche": "classification",
+      "q": "A hotel with 210 rooms is classified by size as:",
+      "correct": "Medium scale (150 to 299 rooms)",
+      "wrong": [
+        "Small scale (under 150 rooms)",
+        "Large scale (300 rooms and above)",
+        "Convention scale (2,000 rooms and above)"
+      ],
+      "why": "Small < 150 ; Medium 150-299 ; Large 300+. « Convention » est un type d'hôtel, pas une catégorie de taille."
+    },
+    {
+      "id": "lo-06",
+      "fiche": "classification",
+      "q": "Which classification groups hotels as world-class, medium-range and economy/limited service?",
+      "correct": "According to levels of service",
+      "wrong": [
+        "According to size",
+        "According to location",
+        "According to ownership and affiliation"
+      ],
+      "why": "Niveaux de service : world-class, medium-range, economy/limited. La propriété distingue chain (management contract, franchise) et independent."
+    },
+    {
+      "id": "lo-07",
+      "fiche": "classification",
+      "q": "Which two options fall under 'chain hotels' in the ownership classification?",
+      "correct": "Management contract and franchise",
+      "wrong": [
+        "Independent and franchise",
+        "Timeshare and management contract",
+        "Commercial and franchise"
+      ],
+      "why": "Chaîne : management contract ou franchise. Independent est l'alternative aux chaînes."
+    },
+    {
+      "id": "lo-08",
+      "fiche": "classification",
+      "q": "Which department belongs to the Rooms Division?",
+      "correct": "Housekeeping",
+      "wrong": [
+        "Accounting",
+        "Sales and Marketing",
+        "Engineering and Maintenance"
+      ],
+      "why": "Rooms Division : Housekeeping, Front Office, Retail Outlets, Recreation, Casino. Les autres sont des « other divisions »."
+    },
+    {
+      "id": "lo-09",
+      "fiche": "accommodation-types",
+      "q": "Which hotel type can have 2,000 rooms or more and offers extensive meeting and banquet space?",
+      "correct": "Convention hotel",
+      "wrong": [
+        "Commercial hotel",
+        "Boutique hotel",
+        "Suburban hotel"
+      ],
+      "why": "Les commercial hotels sont en centre-ville et plus petits, avec moins d'espaces de réunion. Les convention hotels sont proches des centres de congrès."
+    },
+    {
+      "id": "lo-10",
+      "fiche": "accommodation-types",
+      "q": "Which type of accommodation has rooms with direct access to an open parking lot and basic facilities for car travellers?",
+      "correct": "Highway hotel / motel",
+      "wrong": [
+        "Airport hotel with a shuttle to the terminal",
+        "Resort hotel in a picturesque, remote setting",
+        "All-suite hotel with separate living areas"
+      ],
+      "why": "Highway hotels/motels : nuit pour voyageurs en voiture, souvent plus petits, en périphérie des villes."
+    },
+    {
+      "id": "lo-11",
+      "fiche": "accommodation-types",
+      "q": "What does a timeshare (vacation ownership) buyer purchase?",
+      "correct": "The right to use the property for a portion of each year",
+      "wrong": [
+        "A permanent right to live there all year round",
+        "A share of the hotel's daily revenue every month",
+        "A discounted rate on any hotel in the same chain"
+      ],
+      "why": "Souvent avec un acte, transmissible aux héritiers. Type d'hébergement typique des zones de villégiature."
+    },
+    {
+      "id": "lo-12",
+      "fiche": "accommodation-types",
+      "q": "Which hotel type is known as a 'design' or 'lifestyle' hotel, offering personalised service in an intimate setting?",
+      "correct": "Boutique hotel",
+      "wrong": [
+        "Commercial hotel",
+        "Extended-stay hotel",
+        "Casino hotel"
+      ],
+      "why": "Les boutique hotels se différencient par un look & feel unique et une expérience personnalisée ; ils peuvent ne pas offrir Wi-Fi, clim ou TV."
+    },
+    {
+      "id": "lo-13",
+      "fiche": "accommodation-types",
+      "q": "What do all-suite hotels typically provide?",
+      "correct": "Larger rooms with separate sleeping and living areas",
+      "wrong": [
+        "Dormitory beds with shared self-catering kitchens",
+        "Gambling as the main revenue centre of the property",
+        "Cabins on a ship or on a long-distance train"
+      ],
+      "why": "All-suite : zones séparées pour travailler, dormir, se détendre, parfois une cuisine. Dortoirs = hostels ; jeux = casino hotels."
+    },
+    {
+      "id": "lo-14",
+      "fiche": "accommodation-types",
+      "q": "Which accommodation is a private home whose owner lives nearby and rents rooms, usually including breakfast?",
+      "correct": "Bed and breakfast inn (B&B)",
+      "wrong": [
+        "Guest house with dormitory beds",
+        "Serviced apartment",
+        "Villa or chalet"
+      ],
+      "why": "Le B&B est souvent familial, en zone rurale, avec petit-déjeuner et conseils de l'hôte sur la région."
+    },
+    {
+      "id": "lo-15",
+      "fiche": "demand-rates",
+      "q": "In the room-demand formula R = (T × P × L) / (S × N), what does L stand for?",
+      "correct": "Average length of stay",
+      "wrong": [
+        "Number of tourists",
+        "Days per year in business",
+        "Percentage staying in hotels"
+      ],
+      "why": "T = touristes ; P = % logeant à l'hôtel ; L = durée moyenne de séjour ; S = jours d'activité par an ; N = personnes par chambre."
+    },
+    {
+      "id": "lo-16",
+      "fiche": "demand-rates",
+      "q": "Using T = 1,560,000, P = 98%, L = 9, N = 1.69, S = 365, how many rooms are needed at 100% occupancy?",
+      "correct": "About 22,306 rooms",
+      "wrong": [
+        "About 31,866 rooms",
+        "About 13,759 rooms",
+        "About 52,700 rooms"
+      ],
+      "why": "(1 560 000 × 0,98 × 9) / (365 × 1,69) ≈ 22 306. 31 866 est le résultat à 70 % d'occupation."
+    },
+    {
+      "id": "lo-17",
+      "fiche": "demand-rates",
+      "q": "If 22,306 rooms are needed at 100% occupancy, how many are needed at 70% estimated occupancy?",
+      "correct": "About 31,866 rooms",
+      "wrong": [
+        "About 15,614 rooms",
+        "About 22,376 rooms",
+        "About 44,612 rooms"
+      ],
+      "why": "On divise par le taux d'occupation : 22 306 / 0,70 ≈ 31 866. Diviser (et non multiplier) : à moins de 100 % d'occupation il faut plus de chambres."
+    },
+    {
+      "id": "lo-18",
+      "fiche": "demand-rates",
+      "q": "Which of the following belongs to the 'Arrival' stage of the guest cycle?",
+      "correct": "Check-in and registration",
+      "wrong": [
+        "Reservation and booking confirmation",
+        "Bill settlement and final payment",
+        "Wake-up call and message service"
+      ],
+      "why": "Pre-arrival = réservation ; Arrival = check-in/enregistrement, attribution, clé ; Occupancy = wake-up call, messages, compte client ; Departure = règlement de la note et check-out."
+    },
+    {
+      "id": "lo-19",
+      "fiche": "demand-rates",
+      "q": "Which is NOT one of the criteria influencing the room rate charged to guests?",
+      "correct": "The hotel's number of divisions",
+      "wrong": [
+        "Meal plan",
+        "Kind of guest",
+        "Length of stay and day of the week"
+      ],
+      "why": "Facteurs : type/taille/décor/emplacement de la chambre, saison et événements, meal plan, type de client, durée de séjour et jour de la semaine."
+    },
+    {
+      "id": "lo-20",
+      "fiche": "front-office",
+      "q": "Which statement about the Front Office is correct?",
+      "correct": "Front Office is broader than reception",
+      "wrong": [
+        "Front Office is only the check-in desk",
+        "Front Office never handles complaints",
+        "Front Office works separately from Housekeeping"
+      ],
+      "why": "« Front Office ≠ Reception » : contact direct, coordination des demandes, revenus, liaison entre départements, satisfaction du client."
+    },
+    {
+      "id": "lo-21",
+      "fiche": "front-office",
+      "q": "What is the correct order of the reservation flow?",
+      "correct": "Inquiry → Availability → Rate → Booking → Confirmation → Special requests",
+      "wrong": [
+        "Booking → Inquiry → Rate → Availability → Confirmation → Special requests",
+        "Availability → Booking → Inquiry → Rate → Special requests → Confirmation",
+        "Rate → Confirmation → Inquiry → Booking → Availability → Special requests"
+      ],
+      "why": "On répond à la demande, vérifie la disponibilité, annonce le tarif, réserve, confirme, puis note les demandes spéciales."
+    },
+    {
+      "id": "lo-22",
+      "fiche": "front-office",
+      "q": "What is the correct order of the arrival (check-in) process?",
+      "correct": "Greeting → Identification → Reservation check → Registration → Payment/guarantee → Room assignment → Key → Information",
+      "wrong": [
+        "Registration → Greeting → Key → Reservation check → Identification → Payment/guarantee → Room assignment → Information",
+        "Key → Room assignment → Payment/guarantee → Greeting → Registration → Identification → Reservation check → Information",
+        "Reservation check → Key → Greeting → Identification → Payment/guarantee → Registration → Information → Room assignment"
+      ],
+      "why": "L'ordre naturel : accueil, identification, vérification de la réservation, enregistrement, garantie de paiement, chambre, clé, informations."
+    },
+    {
+      "id": "lo-23",
+      "fiche": "front-office",
+      "q": "Which sequence describes the recommended Front Office communication approach?",
+      "correct": "Listen → Understand → Clarify → Act → Follow up",
+      "wrong": [
+        "Act → Listen → Explain → Apologise → Close",
+        "Understand → Act → Follow up → Listen → Clarify",
+        "Clarify → Listen → Act → Follow up → Understand"
+      ],
+      "why": "On écoute d'abord, comprend, clarifie, agit, puis on assure le suivi. C'est la base de la gestion des plaintes."
+    },
+    {
+      "id": "lo-24",
+      "fiche": "front-office",
+      "q": "Which of these is a way the Front Office influences revenue?",
+      "correct": "Upselling and room upgrades",
+      "wrong": [
+        "Cleaning rooms faster than before",
+        "Cooking banquet menus for the events team",
+        "Repairing broken equipment in the rooms"
+      ],
+      "why": "Le Front Office agit sur les revenus par l'upselling, les surclassements, les services additionnels, l'application correcte du tarif et la gestion de la disponibilité."
+    },
+    {
+      "id": "lo-25",
+      "fiche": "front-office",
+      "q": "Which role focuses on personalisation, special occasions, VIP/loyalty guests and complaint recovery?",
+      "correct": "Guest Relations",
+      "wrong": [
+        "Front Desk Agent",
+        "Reservations",
+        "Front Office Manager"
+      ],
+      "why": "Guest Relations = personnalisation, satisfaction, occasions spéciales, complaints & recovery, VIP. Le Front Desk Agent fait check-in/out, paiements, clés."
+    },
+    {
+      "id": "lo-26",
+      "fiche": "front-office",
+      "q": "What does the course say a good Front Office Manager does?",
+      "correct": "Builds a team that can solve problems",
+      "wrong": [
+        "Solves every problem personally",
+        "Avoids direct contact with guests",
+        "Delegates all decisions to Housekeeping"
+      ],
+      "why": "« A good manager doesn't solve every problem personally. A good manager builds a team that can solve problems. »"
+    },
+    {
+      "id": "lo-27",
+      "fiche": "housekeeping",
+      "q": "Why does Housekeeping directly affect hotel revenue?",
+      "correct": "A room cannot be sold if it is not clean and ready",
+      "wrong": [
+        "Housekeeping sets the room rates for each season",
+        "Housekeeping handles all guest reservations online",
+        "Housekeeping manages the hotel's advertising campaigns"
+      ],
+      "why": "Les quatre raisons du cours : expérience client, réputation, revenu, sécurité & hygiène."
+    },
+    {
+      "id": "lo-28",
+      "fiche": "housekeeping",
+      "q": "Which is NOT a main responsibility of a Room Attendant?",
+      "correct": "Approving late check-out requests",
+      "wrong": [
+        "Making beds and cleaning bathrooms",
+        "Reporting maintenance issues",
+        "Reporting lost and found items"
+      ],
+      "why": "L'approbation d'un late check-out relève du Front Office en coordination avec le Housekeeping. Le room attendant nettoie, réapprovisionne et signale."
+    },
+    {
+      "id": "lo-29",
+      "fiche": "housekeeping",
+      "q": "Which is a Housekeeping guest-privacy rule?",
+      "correct": "Knock and announce 'Housekeeping' before entering",
+      "wrong": [
+        "Enter quietly to avoid disturbing the guest inside the room",
+        "Ignore Do Not Disturb signs during the busiest periods",
+        "Discuss guest information with colleagues during breaks"
+      ],
+      "why": "Règles : frapper, annoncer « Housekeeping », respecter Do Not Disturb, ne jamais discuter des informations client, ne pas toucher aux effets personnels sans nécessité."
+    },
+    {
+      "id": "lo-30",
+      "fiche": "housekeeping",
+      "q": "What is the FIRST action in the Late Check-out vs Urgent Arrival case?",
+      "correct": "Check the room's real-time status in the PMS and contact Front Office",
+      "wrong": [
+        "Send a room attendant in to clean the still occupied room",
+        "Tell the arriving guest to book another hotel nearby",
+        "Ask the departing guest to leave at once without any explanation"
+      ],
+      "why": "Confirmer la situation réelle (Vacant/Occupied, Due Out) et l'heure exacte de late check-out et d'arrivée. Plus tôt l'écart est détecté, plus il reste d'options."
+    },
+    {
+      "id": "lo-31",
+      "fiche": "housekeeping",
+      "q": "Which is a prevention measure suggested for late check-out conflicts?",
+      "correct": "Grant late check-outs only after cross-checking arrivals and occupancy",
+      "wrong": [
+        "Refuse every late check-out request that a guest makes",
+        "Overbook rooms on purpose to cover any gaps in arrivals",
+        "Skip room inspections on busy days to save time"
+      ],
+      "why": "Prévention : croiser arrivées/prévisions avant d'accorder, communication temps réel Housekeeping–Front Office, temps tampon minimal les jours de forte occupation."
+    },
+    {
+      "id": "lo-32",
+      "fiche": "housekeeping",
+      "q": "Whom should Housekeeping inform in the late check-out conflict?",
+      "correct": "Front Office, the Executive Housekeeper or floor supervisor, and the incoming guest",
+      "wrong": [
+        "Only the Room Attendant who is working on that floor at the time",
+        "Only the hotel's Accounting department, so the bill is corrected",
+        "Only the departing guest, who should be told about the delay"
+      ],
+      "why": "Front Office pour la communication avec les deux clients ; Executive Housekeeper pour repriorisation ; le client entrant, informé tôt et poliment si le retard est inévitable."
+    },
+    {
+      "id": "lo-33",
+      "fiche": "quality-control",
+      "q": "Which statement about cleaning and inspection is correct?",
+      "correct": "Room Attendant cleans; Supervisor inspects",
+      "wrong": [
+        "Room Attendant both cleans and finally approves the room",
+        "The guest inspects the room before check-in",
+        "Inspection is done only when a guest complains"
+      ],
+      "why": "Le nettoyage n'est pas la dernière étape : la chambre est inspectée pour vérifier qu'elle respecte les standards avant d'être libérée."
+    },
+    {
+      "id": "lo-34",
+      "fiche": "quality-control",
+      "q": "A leaking tap is a problem of:",
+      "correct": "Condition",
+      "wrong": [
+        "Cleanliness",
+        "Privacy",
+        "Rate structure"
+      ],
+      "why": "Condition = équipement cassé, mobilier abîmé, robinet qui fuit, ampoule grillée. Cleanliness = poussière, taches, cheveux, traces de doigts, odeur."
+    },
+    {
+      "id": "lo-35",
+      "fiche": "quality-control",
+      "q": "What does 'A room can be clean but still not be ready' mean?",
+      "correct": "Condition problems such as broken equipment can still block release",
+      "wrong": [
+        "Guests decide by themselves when a room is ready",
+        "Clean rooms are always sold immediately at any price",
+        "Rooms only need a bed and clean towels to be sold"
+      ],
+      "why": "Propre ≠ prêt : une lumière grillée ou une TV cassée doivent être corrigées avant de libérer la chambre."
+    },
+    {
+      "id": "lo-36",
+      "fiche": "quality-control",
+      "q": "How many inspection points should the group checklist contain?",
+      "correct": "10 to 15",
+      "wrong": [
+        "3 to 5",
+        "20 to 25",
+        "50 or more"
+      ],
+      "why": "Checklist de 10-15 points couvrant bedroom, bathroom, amenities, equipment, cleanliness, overall condition."
+    },
+    {
+      "id": "lo-37",
+      "fiche": "accor-novotel",
+      "q": "When and where was Accor founded, according to your group presentation?",
+      "correct": "1967, near Lille, France (first Novotel)",
+      "wrong": [
+        "1983, Paris, France (merger)",
+        "1887, Singapore (Raffles)",
+        "1967, Almaty, Kazakhstan"
+      ],
+      "why": "Fondé par Paul Dubrule et Gérard Pélisson ; 1983 = fusion qui crée Accor (bourse de Paris)."
+    },
+    {
+      "id": "lo-38",
+      "fiche": "accor-novotel",
+      "q": "Which is one of Accor's four differentiators in your presentation?",
+      "correct": "The ALL loyalty programme, with about 100 million members",
+      "wrong": [
+        "Owning every building of all of its hotels worldwide",
+        "Operating only economy hotels in Europe and Asia",
+        "Being present in only about ten countries worldwide"
+      ],
+      "why": "Accor se différencie par 45+ marques, ALL (~100 M de membres), un modèle asset-light (management et franchise) et la collection Ennismore."
+    },
+    {
+      "id": "lo-39",
+      "fiche": "accor-novotel",
+      "q": "How is the Novotel Almaty City Center classified in your Practice 2.2?",
+      "correct": "City centre hotel and commercial hotel, mid-range chain",
+      "wrong": [
+        "Resort hotel and spa hotel in a remote setting",
+        "Convention hotel with more than 2,000 rooms",
+        "Boutique hotel converted from a historic building"
+      ],
+      "why": "Situé avenue Dostyk près du métro Abai, avec 6 salles de réunion mais bien moins qu'un convention hotel ; 4 étoiles, ≈ 190 chambres, ouvert en 2018."
+    },
+    {
+      "id": "lo-40",
+      "fiche": "accor-novotel",
+      "q": "Which tier does the ibis brand belong to in Accor's portfolio?",
+      "correct": "Economy",
+      "wrong": [
+        "Luxury",
+        "Premium",
+        "Midscale"
+      ],
+      "why": "Economy : ibis, ibis Styles, ibis budget, hotelF1. Midscale : Novotel, Mercure, Adagio, TRIBE."
+    }
+  ]
+}

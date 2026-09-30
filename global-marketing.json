@@ -1,0 +1,641 @@
+{
+  "id": "global-marketing",
+  "emoji": "🌍",
+  "name": {
+    "fr": "Global Marketing",
+    "en": "Global Marketing"
+  },
+  "teacher": "Aizhan Kazybayeva (AlmaU)",
+  "coverage": "GM1, GM1:2, GM3 et GM4. Attention : beaucoup de diapos sont des images (schémas, graphiques) dont le texte n'a pas pu être lu ; le contenu ci-dessous vient du texte disponible.",
+  "fiches": [
+    {
+      "id": "marketing-basics",
+      "title": {
+        "fr": "Marketing global : définitions et nouvelles réalités",
+        "en": "Global marketing: definitions and new realities"
+      },
+      "body": {
+        "fr": [
+          "**Marketing** = l'activité, l'ensemble d'institutions et de processus pour **créer, communiquer, délivrer et échanger des offres qui ont de la valeur** pour les clients, partenaires et la société.",
+          "**Global marketing** : promotion et vente de produits ou services **à l'échelle internationale** ; un domaine dynamique et complexe.",
+          "**Marketing management** = l'art et la science de **choisir des marchés cibles et d'obtenir, garder et développer des clients** en créant, délivrant et communiquant une valeur client supérieure.",
+          "**Citation Revson (Revlon)** : « In the factory we make cosmetics; in the drugstore we sell hope. » → on ne vend pas que le produit physique mais le bénéfice/l'espoir.",
+          "**Forces qui définissent les nouvelles réalités du marketing** : **Technology**, **Globalization**, **Social Responsibility** (un marché radicalement transformé).",
+          "**Lectures** : Kotler & Keller, *A Framework for Marketing Management* (ch. 1) ; Hollensen, *Global Marketing* (ch. 1-2, 5, 6, 7) ; Harvey (ch. 6)."
+        ],
+        "en": [
+          "**Marketing** = the activity, set of institutions and processes for **creating, communicating, delivering and exchanging offerings that have value** for customers, clients, partners and society at large.",
+          "**Global marketing**: promotion and sale of products or services **on an international scale**; a dynamic and complex field.",
+          "**Marketing management** = the art and science of **choosing target markets and getting, keeping and growing customers** through creating, delivering and communicating superior customer value.",
+          "**Revson quote (Revlon)**: “In the factory we make cosmetics; in the drugstore we sell hope.” → we sell the benefit/hope, not just the physical product.",
+          "**Forces defining the new marketing realities**: **Technology**, **Globalization**, **Social Responsibility** (a dramatically changed marketplace).",
+          "**Readings**: Kotler & Keller, *A Framework for Marketing Management* (ch. 1); Hollensen, *Global Marketing* (ch. 1–2, 5, 6, 7); Harvey (ch. 6)."
+        ]
+      }
+    },
+    {
+      "id": "eprg",
+      "title": {
+        "fr": "EPRG : les 4 orientations internationales + cas d'expansion",
+        "en": "EPRG orientations + internationalization case"
+      },
+      "body": {
+        "fr": [
+          "**Ethnocentric – « Home »** : « Ce qui marche chez nous doit marcher à l'étranger. » Exemple : **Walmart en Allemagne** (transfert de pratiques US sans assez s'adapter aux habitudes d'achat et à la culture d'entreprise allemandes).",
+          "**Polycentric – « Islands »** : « Chaque pays est différent. » Exemple : **Unilever** (grande autonomie des filiales ; produits, marques, emballages et pubs très différents entre Inde, Indonésie, Brésil…).",
+          "**Regiocentric – « Continents »** : « Les pays d'une région peuvent être gérés ensemble. » Exemple : **McDonald's** (stratégies régionales Asie, Europe, Moyen-Orient).",
+          "**Geocentric – « Globe »** : « Penser global et utiliser les meilleures idées d'où qu'elles viennent. » Exemple : **Netflix** (une plateforme globale, contenus de nombreux pays qui deviennent des produits mondiaux).",
+          "**Cas « Internationalization Consultant »** : une entreprise kazakhe de chocolat premium veut s'internationaliser (choix : Ouzbékistan, EAU, Allemagne, Russie, Kirghizistan, Turquie). Il faut recommander : entrer ou non ? quel marché en premier ? quelle orientation EPRG ? **quoi standardiser / adapter** ? quelles activités de la **chaîne de valeur** rester au Kazakhstan / se localiser à l'étranger ?",
+          "**Devoir « One Brand – Two Markets »** (ex. Starbucks Chine vs USA, IKEA Arabie saoudite vs Suède) : différences pays (culture, comportement client, économie, concurrence, réglementation) · standardisation · adaptation (produit, prix, communication, distribution, expérience client) · **intégration globale vs réactivité locale** · implications chaîne de valeur · recommandation stratégique."
+        ],
+        "en": [
+          "**Ethnocentric – “Home”**: “What works at home should work abroad.” Example: **Walmart in Germany** (transferred US practices without adapting enough to German shopping habits and business culture).",
+          "**Polycentric – “Islands”**: “Every country is different.” Example: **Unilever** (substantial autonomy for subsidiaries; products, brands, packaging and ads differ a lot between India, Indonesia, Brazil…).",
+          "**Regiocentric – “Continents”**: “Countries within a region can be managed together.” Example: **McDonald’s** (regional strategies for Asia, Europe, Middle East).",
+          "**Geocentric – “Globe”**: “Think globally and use the best ideas from anywhere.” Example: **Netflix** (one global platform, content from many countries that becomes a global product).",
+          "**“Internationalization Consultant” case**: a Kazakh premium-chocolate company wants to expand (options: Uzbekistan, UAE, Germany, Russia, Kyrgyz Republic, Turkey). Recommend: enter or not? which market first? which EPRG orientation? **what to standardize / adapt**? which **value-chain** activities stay in Kazakhstan / go abroad?",
+          "**“One Brand – Two Markets” assignment** (e.g. Starbucks China vs USA, IKEA Saudi Arabia vs Sweden): country differences (culture, customer behaviour, economy, competition, regulation) · standardization · adaptation (product, price, communication, distribution, customer experience) · **global integration vs local responsiveness** · value-chain implications · strategic recommendation."
+        ]
+      }
+    },
+    {
+      "id": "digital-ci",
+      "title": {
+        "fr": "Veille concurrentielle digitale (Share of Search)",
+        "en": "Digital competitive intelligence (Share of Search)"
+      },
+      "body": {
+        "fr": [
+          "**Semrush** : intelligence concurrentielle et analyse digitale : trafic des sites concurrents, visibilité de recherche, mots-clés, sources de trafic, caractéristiques d'audience, tendances. Répond à : **qui sont nos concurrents en ligne ? d'où vient leur trafic ? qui gagne en visibilité ?**",
+          "**Google Trends** : compare l'intérêt de recherche **dans le temps, les zones géographiques, les sujets et les termes** (ex. Nike vs Adidas ; saisonnalité de « running shoes »).",
+          "**Quantcast** : plateforme d'**audience intelligence** : démographie, géographie, appareils, intérêts, comportement de navigation → **qui est l'audience digitale et qu'est-ce qui la distingue ?**",
+          "**Mission « Competitive Intelligence & SEO Share of Search Audit »** (Harvey ch. 6) : groupes mixtes de 4 (internationaux + locaux) ; choisir une entreprise de **CPG de taille moyenne** qui veut s'internationaliser, identifier ses **2 principaux concurrents mondiaux**, auditer avec Semrush / Google Trends / Quantcast.",
+          "**Livrables** : présentation + rapport de 3 pages avec (1) **Share of Search** de chaque concurrent sur les mots-clés centraux ; (2) évaluation de l'optimisation pour la **Universal Search** (images, cartes, vidéo) ou seulement du texte ; (3) **Competitor Strategy Audit Matrix** (Facebook, Twitter, Pinterest, YouTube) ; (4) recommandations pour **réduire le taux de rebond localisé** selon les **dimensions culturelles de Hofstede**."
+        ],
+        "en": [
+          "**Semrush**: competitive intelligence and digital market analysis: competitors’ website traffic, search visibility, keywords, traffic sources, audience characteristics, market trends. Answers: **who are our online competitors? where does their traffic come from? who is gaining visibility?**",
+          "**Google Trends**: compares search interest **over time, across locations, topics and search terms** (e.g. Nike vs Adidas; seasonality of “running shoes”).",
+          "**Quantcast**: an **audience intelligence** platform: demographics, geography, devices, interests, browsing behaviour → **who is the digital audience and what distinguishes it?**",
+          "**“Competitive Intelligence & SEO Share of Search Audit” task** (Harvey ch. 6): mixed groups of 4 (international + local students); choose a **mid-sized CPG** firm looking to expand internationally, identify its **top 2 global competitors**, audit with Semrush / Google Trends / Quantcast.",
+          "**Deliverables**: presentation + 3-page report with (1) each competitor’s **Share of Search** for core keywords; (2) evaluation of whether they optimise for **Universal Search** (images, maps, video) or rely on text; (3) **Competitor Strategy Audit Matrix** (Facebook, Twitter, Pinterest, YouTube); (4) recommendations to **lower localized bounce rates** using **Hofstede’s cultural dimensions**."
+        ]
+      }
+    },
+    {
+      "id": "pestel-political",
+      "title": {
+        "fr": "PESTEL et environnement politique (Hollensen ch. 6-7)",
+        "en": "PESTEL and the political environment (Hollensen ch. 6–7)"
+      },
+      "body": {
+        "fr": [
+          "**PESTEL fait le pont entre la sélection de marché et la localisation du marketing mix** : **Political** (stabilité, politiques commerciales, tarifs, relations géopolitiques) · **Economic** (PIB, pouvoir d'achat, volatilité des changes, inflation) · **Social** (valeurs, démographie, religion, modes de vie) · **Technological** (e-commerce, infrastructure, R&D) · **Ecological** (réglementations environnementales, durabilité, consommation verte) · **Legal** (conformité, droit du travail, propriété intellectuelle, antitrust, protection du consommateur).",
+          "**« Triple-threat » de l'environnement politique** : **Home-country** (subventions/programmes de promotion des exportations, restrictions géopolitiques, garanties) · **Host-country** (intervention gouvernementale, local-content, contrôle des prix, taxes, expropriation) · **Third-market** (sanctions extraterritoriales, boycotts, pressions d'ONG, arbitrage).",
+          "**Risque de propriété (Ownership risk)** : **expropriation** (saisie officielle d'actifs étrangers), **nationalization** (reprise d'industries entières), **domestication / creeping expropriation** (transfert progressif de la propriété et du contrôle à des nationaux).",
+          "**Risque opérationnel** : restrictions d'import (sourcing local obligatoire), **local-content laws**, contrôles de prix et de taxes. **Risque de transfert** : contrôles des changes, barrières au rapatriement des profits, dévaluation.",
+          "**Analyse du risque politique en 3 étapes** : (1) **issues of relevance** (enjeux critiques) ; (2) **évaluer événements et probabilité** (causes-effets, volonté du gouvernement d'agir) ; (3) **impacts probables et réponses** (plans de contingence).",
+          "**Relations avec les parties prenantes** : **Government** (lobbying transparent, pas de corruption) · **Customers** (valeur élevée pour qu'ils défendent la firme) · **Employees** (conditions équitables) · **Local community** (bon citoyen local, CSR, réinvestissement).",
+          "**Gérer le risque politique en PME** : faire porter le risque à l'acheteur (paiement d'avance), **prix en devise forte**, licences plus courtes / acomptes plus élevés, **diversifier les marchés**, entrées à faible engagement (agents/distributeurs locaux), intermédiaires locaux, **assurance-crédit à l'exportation**, agences de promotion des exportations."
+        ],
+        "en": [
+          "**PESTEL bridges market selection and marketing-mix localization**: **Political** (stability, trade policies, tariffs, geopolitical relations) · **Economic** (GDP, purchasing power, exchange-rate volatility, inflation) · **Social** (values, demographics, religion, lifestyles) · **Technological** (e-commerce, infrastructure, R&D) · **Ecological** (environmental regulations, sustainability, green consumerism) · **Legal** (compliance, labour law, IP, antitrust, consumer protection).",
+          "**The “triple-threat” political environment**: **Home-country** (export promotion/subsidies, geopolitical restrictions, guarantees) · **Host-country** (government intervention, local-content, price controls, taxes, expropriation) · **Third-market** (extraterritorial sanctions, boycotts, NGO pressure, arbitration).",
+          "**Ownership risk**: **expropriation** (official seizure of foreign assets), **nationalization** (takeover of entire industries), **domestication / creeping expropriation** (gradual transfer of ownership and control to local nationals).",
+          "**Operating risk**: import restrictions (mandatory local sourcing), **local-content laws**, price and tax controls. **Transfer risk**: exchange controls, profit repatriation barriers, currency devaluation.",
+          "**3-step political risk analysis**: (1) **issues of relevance**; (2) **evaluate events and probability** (cause-effect, government willingness to act); (3) **probable impacts and responses** (contingency plans).",
+          "**Stakeholder relationships**: **Government** (transparent lobbying, no bribery) · **Customers** (high value so they defend the firm) · **Employees** (fair conditions) · **Local community** (good local citizen, CSR, reinvestment).",
+          "**Managing political risk as an SME**: shift risk to the buyer (cash in advance), **price in a hard currency**, shorter licences / higher upfront payments, **diversify markets**, low-commitment entry modes (local agents/distributors), local intermediaries, **export credit insurance**, export promotion agencies."
+        ]
+      }
+    },
+    {
+      "id": "economic-env",
+      "title": {
+        "fr": "Devises, PPP, blocs commerciaux, BRIC et Bottom of the Pyramid",
+        "en": "Currencies, PPP, trading blocs, BRIC and Bottom of the Pyramid"
+      },
+      "body": {
+        "fr": [
+          "**Dévaluation** (action du gouvernement hôte qui baisse la valeur internationale de la monnaie) : **exportations moins chères** = plus compétitives ; **importations plus chères** ; risque d'**inflation** (coûts d'intrants).",
+          "**Réévaluation** : relève la valeur internationale de la monnaie : exportations **plus chères** à l'étranger (demande potentiellement plus faible) ; importations (machines, composants) **moins chères**. Les exportateurs préfèrent des **taux de change stables** pour prévoir leur trésorerie.",
+          "**Law of One Price** : des produits identiques doivent avoir le même prix dans tous les pays une fois convertis dans une même monnaie. **PPP** : les taux de change sont en équilibre quand le pouvoir d'achat est égalisé (à ajuster par PIB par habitant).",
+          "**Big Mac Index (The Economist)** : panier standardisé vendu dans 50+ pays ; **taux PPP implicite = prix local du Big Mac ÷ prix du Big Mac aux USA** ; on le compare au taux de marché pour voir sous/surévaluation. Exemple : le yuan paraît sous-évalué en brut, mais ajusté du PIB par habitant il est proche de l'équilibre (+3 %).",
+          "**Blocs commerciaux (niveaux d'intégration)** : **Free Trade Area** (supprime les tarifs entre membres, ex. NAFTA, EFTA) → **Customs Union** (+ tarif extérieur commun) → **Common Market** (+ libre circulation du travail et du capital) → **Economic Union** (+ politiques économiques et monnaie harmonisées, ex. zone euro) → **Political Union** (intégration politique et juridique complète). Attention : murs régionaux pour les exportateurs non-membres.",
+          "**BRIC (Brésil, Russie, Inde, Chine)** : ~**42 %** de la population mondiale et **20 %+** du PIB mondial ; montée rapide de classes moyennes.",
+          "**Bottom of the Pyramid (Prahalad)** : servir 4+ milliards de consommateurs à faible revenu exige de repenser les coûts. **3 piliers** : (1) **Access to credit** (microfinance) ; (2) **Strategic alliances** (ONG, entrepreneurs locaux, gouvernements) ; (3) **Adapted marketing mix** (redesign, réduction de coûts, petites unités, *sachet marketing*).",
+          "**Exemples BOP** : **Godrej ChotuKool** (Inde, mini-frigo portable 40 L à 65 $, puce thermoélectrique, batterie 12 V) · **Vodacom** (Afrique, téléphones partagés comme actif générateur de revenus pour franchisés de village) · **Voltic Cool Pac** (Ghana, eau potable en sachets à 0,03 $ via vendeurs de rue)."
+        ],
+        "en": [
+          "**Devaluation** (host government lowers the international value of the currency): **exports become cheaper** = more competitive; **imports become more expensive**; risk of **inflation** (input costs).",
+          "**Revaluation**: raises the currency’s international value: exports **more expensive** abroad (demand may fall); imported machinery/components **cheaper**. Exporters prefer **stable exchange rates** to forecast cash flow.",
+          "**Law of One Price**: identical products must carry identical prices across nations when converted to a common currency. **PPP**: exchange rates are in equilibrium when purchasing power is equalized (adjust for GDP per capita).",
+          "**Big Mac Index (The Economist)**: standard basket sold in 50+ countries; **implied PPP rate = local Big Mac price ÷ US Big Mac price**; compare with the market rate to see over/undervaluation. Example: the yuan looks undervalued raw, but adjusted for GDP per person it is near equilibrium (+3%).",
+          "**Trading blocs (levels of integration)**: **Free Trade Area** (removes tariffs among members, e.g. NAFTA, EFTA) → **Customs Union** (+ common external tariff) → **Common Market** (+ free movement of labour and capital) → **Economic Union** (+ harmonized economic policies and currency, e.g. Eurozone) → **Political Union** (full political and legal integration). Watch out: regional walls for non-member exporters.",
+          "**BRIC (Brazil, Russia, India, China)**: ~**42%** of world population and **20%+** of global GDP; rapid growth of middle classes.",
+          "**Bottom of the Pyramid (Prahalad)**: serving 4+ billion low-income consumers requires radical cost re-engineering. **3 pillars**: (1) **Access to credit** (microfinance); (2) **Strategic alliances** (NGOs, local entrepreneurs, governments); (3) **Adapted marketing mix** (redesign, cost re-engineering, smaller units, *sachet marketing*).",
+          "**BOP examples**: **Godrej ChotuKool** (India, $65 portable 40 L cooler, thermoelectric chip, 12V battery) · **Vodacom** (Africa, shared phones as income assets for village franchisees) · **Voltic Cool Pac** (Ghana, $0.03 water sachets via street hawkers)."
+        ]
+      }
+    },
+    {
+      "id": "culture",
+      "title": {
+        "fr": "Culture : iceberg, contexte, Hofstede, traductions, méthode de Lee",
+        "en": "Culture: iceberg, context, Hofstede, translation traps, Lee's method"
+      },
+      "body": {
+        "fr": [
+          "**Iceberg culturel** : partie visible (~**10 %**) = comportements quotidiens, vêtements, nourriture, gestes ; partie invisible (~**90 %**) = valeurs profondes, morale, identité nationale, hypothèses religieuses. Les échecs viennent de l'ignorance des valeurs invisibles.",
+          "**4 couches imbriquées** : **National culture** · **Business/Industry culture** · **Company culture** · **Individual behavior**.",
+          "**High-context** (Japon, Chine, monde arabe) : communication implicite/indirecte, non verbale ; orienté **relation** (« d'abord un ami, ensuite un deal ») ; accords fondés sur la confiance ; temps **polychronique** (élastique). **Low-context** (USA, Allemagne, Suisse) : explicite, direct ; orienté deal ; contrats formels détaillés ; temps **monochronique** (linéaire, ponctualité).",
+          "**Hofstede – 5 dimensions** : **Power Distance (PDI)** (haut : Japon ; bas : Danemark) · **Uncertainty Avoidance (UAI)** (haut : garanties et règles) · **Individualism (IDV)** (haut : USA ; bas : collectivisme) · **Masculinity (MAS)** (compétition et carrière vs qualité de vie et solidarité) · **Long-Term Orientation (LTO)** (haut : épargne et persévérance, Asie de l'Est). Exemples : Pocari Sweat en Asie, IKEA (catalogue adapté Danemark vs Chine).",
+          "**Langue et traduction** : « la langue est le miroir de la culture ». **Pepsi « Come Alive » → « ramène les ancêtres d'entre les morts » à Taïwan** ; **ENCO** signifie « voiture calée » au Japon.",
+          "**Non-verbal** : jusqu'à ~90 % du sens dans les cultures high-context ; **Hall's silent languages** : temps, espace de conversation, relations d'amitié, accords commerciaux.",
+          "**Esthétique, modestie, religion, tabous** : **Drakkar Noir** pub adaptée pour l'Arabie saoudite (bras vêtu d'une manche de costume, toucher d'un seul doigt) ; halal/kosher, Ramadan ; **Polaroid** réussit dans le monde arabe (photos à la maison sans laboratoire d'inconnus). **Electrolux Ergothree** rendu ultra-silencieux pour les petits logements japonais.",
+          "**Méthode en 4 étapes de J.A. Lee** (contre le biais culturel) : (1) définir le problème selon la **culture du pays d'origine** ; (2) selon la **culture du pays hôte** ; (3) **isoler l'influence du SRC** (self-reference criterion) et voir comment elle déforme le problème ; (4) **redéfinir le problème sans l'influence du SRC** et le résoudre pour le marché étranger."
+        ],
+        "en": [
+          "**Cultural iceberg**: visible top (~**10%**) = daily behaviour, clothing, food, gestures; invisible bottom (~**90%**) = deep values, morals, national identity, religious assumptions. Failures come from ignoring invisible values.",
+          "**4 nested layers**: **National culture** · **Business/Industry culture** · **Company culture** · **Individual behavior**.",
+          "**High-context** (Japan, China, Arab world): implicit/indirect, non-verbal; **relationship**-oriented (“first make a friend, then a deal”); trust-based agreements; **polychronic** time (elastic). **Low-context** (US, Germany, Swiss): explicit, direct; deal-oriented; formal detailed contracts; **monochronic** time (linear, punctual).",
+          "**Hofstede – 5 dimensions**: **Power Distance (PDI)** (high: Japan; low: Denmark) · **Uncertainty Avoidance (UAI)** (high: warranties & rules) · **Individualism (IDV)** (high: US; low: collectivist) · **Masculinity (MAS)** (competition & career vs quality of life & solidarity) · **Long-Term Orientation (LTO)** (high: thrift & perseverance, East Asia). Examples: Pocari Sweat in Asia, IKEA catalogue adapted between Denmark and China.",
+          "**Language & translation**: “language is the mirror of culture”. **Pepsi “Come Alive” → “brings ancestors back from the dead” in Taiwan**; **ENCO** means “stalled car” in Japan.",
+          "**Non-verbal**: up to ~90% of meaning in high-context cultures; **Hall’s silent languages**: time, conversational space, friendship patterns, business agreements.",
+          "**Aesthetics, modesty, religion, taboos**: **Drakkar Noir** ad modified for Saudi Arabia (arm in a dark suit sleeve, a single fingertip touch); Halal/Kosher, Ramadan; **Polaroid** succeeded in Arab markets (home photos without darkroom strangers). **Electrolux Ergothree** re-engineered whisper-quiet for compact Japanese homes.",
+          "**J.A. Lee’s 4-step method** (eliminating cultural bias): (1) define the problem in terms of **home-country culture**; (2) in terms of **host-country culture**; (3) **isolate the SRC influence** (self-reference criterion) and see how it distorts the issue; (4) **redefine the problem without the SRC influence** and solve it for the foreign market."
+        ]
+      }
+    },
+    {
+      "id": "ethics",
+      "title": {
+        "fr": "Éthique globale et paiements de facilitation",
+        "en": "Global ethics and facilitation payments"
+      },
+      "body": {
+        "fr": [
+          "**Continuum de décision éthique** (du plus au moins éthique) : **Spirit of Morality** (fort engagement de leadership éthique global) → **Adherence to Law** (standard pratique, engagement modéré) → **Just Adherence to Law** (conformité minimale) → **Unethical** (ne respecte ni la loi locale ni internationale).",
+          "**6 domaines d'un code d'éthique global** : Organizational Relations · Economic Relations (taxation, transfer pricing, réinvestissement) · Employee Relations · Customer Relations · Industrial Relations (transfert de technologie) · Political Relations (zéro corruption, anti-bribery).",
+          "**Pratique locale vs principes du pays d'origine (paiements de facilitation)** : considérer la loi du pays d'origine (anti-corruption), la loi du pays hôte (souvent illégal même si courant), l'éthique d'entreprise, la réalité business (refuser peut retarder), la **réputation**.",
+          "**Réponse solide** : établir un **standard éthique minimum global** et appliquer la **localisation seulement à l'intérieur de cette limite**. Alternatives au paiement : frais officiels de traitement accéléré, documenter les retards, impliquer les compliance officers, passer par des intermédiaires locaux légitimes, escalader aux autorités.",
+          "**Discussions de classe** : (1) gérer le risque politique en PME ; (2) une culture jeune globale réduit-elle assez les différences pour standardiser ? ; (3) comment concilier éthique du pays d'origine et pratiques locales.",
+          "**Devoir « Cross-Cultural Marketing & Aesthetics Audit »** : choisir 2 pays contrastés sur le continuum de contexte de Hall (ex. Allemagne vs Arabie saoudite, USA vs Japon) ; comparer sur les 5 dimensions de Hofstede ; auditer les supports d'une marque globale ; analyser l'adaptation de l'**esthétique, des symboles non verbaux et de la langue** (modestie, religion, high/low-context)."
+        ],
+        "en": [
+          "**Ethical decision-making continuum** (most to least ethical): **Spirit of Morality** (high commitment to global ethical leadership) → **Adherence to Law** (practical standard, moderate commitment) → **Just Adherence to Law** (minimal compliance) → **Unethical** (not following local or international law).",
+          "**6 core areas of a global ethics code**: Organizational Relations · Economic Relations (taxation, transfer pricing, reinvestment) · Employee Relations · Customer Relations · Industrial Relations (technology transfer) · Political Relations (zero corruption, anti-bribery).",
+          "**Local practice vs home-country principles (facilitation payments)**: consider home-country law (anti-bribery), host-country law (often illegal even if common), corporate ethics, business reality (refusing may delay), **reputation**.",
+          "**Strong response**: set a **global minimum ethical standard** and allow **local adaptation only within that boundary**. Alternatives to paying: official expedited-processing fees, documenting delays, involving compliance officers, legitimate local intermediaries, escalating to authorities.",
+          "**Class discussions**: (1) managing political risk as an SME; (2) does global youth culture reduce differences enough to standardize? ; (3) balancing home-country ethics with local practices.",
+          "**“Cross-Cultural Marketing & Aesthetics Audit” assignment**: pick 2 countries contrasting on Hall’s context continuum (e.g. Germany vs Saudi Arabia, US vs Japan); compare on Hofstede’s 5 dimensions; audit a global brand’s materials; analyse adaptation of **aesthetics, non-verbal symbols and language** (modesty, religion, high/low-context)."
+        ]
+      }
+    }
+  ],
+  "qcm": [
+    {
+      "id": "gm-01",
+      "fiche": "marketing-basics",
+      "q": "Which definition matches 'marketing management' in Lesson 1?",
+      "correct": "The art and science of choosing target markets and getting, keeping and growing customers",
+      "wrong": [
+        "The process of setting the lowest possible price in each foreign market it enters",
+        "The legal framework governing how advertising is regulated in foreign countries",
+        "The set of accounting tools used to measure a company's profit and losses"
+      ],
+      "why": "Marketing management = choisir les marchés cibles et obtenir, garder, développer les clients en créant, délivrant et communiquant une valeur client supérieure."
+    },
+    {
+      "id": "gm-02",
+      "fiche": "marketing-basics",
+      "q": "What point does Revson's quote 'In the factory we make cosmetics; in the drugstore we sell hope' illustrate?",
+      "correct": "Marketers sell benefits, not just physical products",
+      "wrong": [
+        "Factories should sell their products directly to the end consumers",
+        "Drugstores must lower the price of cosmetics to attract shoppers",
+        "Cosmetics are a low-value product category with little margin"
+      ],
+      "why": "Ce qu'on commercialise n'est pas seulement l'objet : c'est l'espoir/le bénéfice perçu par le client."
+    },
+    {
+      "id": "gm-03",
+      "fiche": "marketing-basics",
+      "q": "Which three forces define the 'new marketing realities'?",
+      "correct": "Technology, globalization, social responsibility",
+      "wrong": [
+        "Price, promotion, distribution",
+        "Politics, economics, religion",
+        "Competition, regulation, taxation"
+      ],
+      "why": "Le marché a été radicalement transformé par la technologie, la mondialisation et la responsabilité sociale."
+    },
+    {
+      "id": "gm-04",
+      "fiche": "eprg",
+      "q": "Which EPRG orientation is summarised as 'What works at home should work abroad'?",
+      "correct": "Ethnocentric",
+      "wrong": [
+        "Polycentric",
+        "Regiocentric",
+        "Geocentric"
+      ],
+      "why": "Ethnocentric = « Home ». Exemple du cours : Walmart en Allemagne, qui a transféré ses pratiques américaines sans assez s'adapter."
+    },
+    {
+      "id": "gm-05",
+      "fiche": "eprg",
+      "q": "Unilever, whose local subsidiaries have substantial autonomy, is the course example of which orientation?",
+      "correct": "Polycentric (Islands)",
+      "wrong": [
+        "Ethnocentric (Home)",
+        "Regiocentric (Continents)",
+        "Geocentric (Globe)"
+      ],
+      "why": "Polycentric : « chaque pays est différent ». Produits, marques, emballages et publicités peuvent différer fortement entre Inde, Indonésie, Brésil."
+    },
+    {
+      "id": "gm-06",
+      "fiche": "eprg",
+      "q": "Which company illustrates the geocentric orientation in the course?",
+      "correct": "Netflix",
+      "wrong": [
+        "McDonald's",
+        "Walmart",
+        "Unilever"
+      ],
+      "why": "Netflix = une plateforme mondiale avec des contenus venus de nombreux pays (coréen, espagnol, britannique) qui deviennent des produits mondiaux. McDonald's = régiocentrique."
+    },
+    {
+      "id": "gm-07",
+      "fiche": "eprg",
+      "q": "McDonald's coordinating products and campaigns within Asia, Europe or the Middle East is an example of what?",
+      "correct": "Regiocentric orientation",
+      "wrong": [
+        "Ethnocentric orientation",
+        "Polycentric orientation",
+        "Geocentric orientation"
+      ],
+      "why": "Regiocentric = « Continents » : les pays d'une région peuvent être gérés ensemble."
+    },
+    {
+      "id": "gm-08",
+      "fiche": "eprg",
+      "q": "In the 'Internationalization Consultant' case, which question must teams NOT ignore?",
+      "correct": "Which value-chain activities stay in Kazakhstan and which move abroad",
+      "wrong": [
+        "Which competitor company the firm should acquire first abroad",
+        "Which currency the company should use to pay its salaries",
+        "How the company should raise capital on the stock market"
+      ],
+      "why": "Les équipes doivent recommander : entrer ou non, quel marché, quelle orientation EPRG, quoi standardiser/adapter, quelles activités de la chaîne de valeur localiser."
+    },
+    {
+      "id": "gm-09",
+      "fiche": "digital-ci",
+      "q": "Which tool is described as being for competitive intelligence: competitors' traffic, keywords and traffic sources?",
+      "correct": "Semrush",
+      "wrong": [
+        "Google Trends",
+        "Quantcast",
+        "Kotler Suite"
+      ],
+      "why": "Semrush = veille concurrentielle. Google Trends compare l'intérêt de recherche ; Quantcast = audience intelligence."
+    },
+    {
+      "id": "gm-10",
+      "fiche": "digital-ci",
+      "q": "What is Google Trends used for in the lecture?",
+      "correct": "Comparing search interest across time, places and terms",
+      "wrong": [
+        "Measuring competitors' paid advertising budgets in each country",
+        "Profiling audience demographics and devices of a website",
+        "Auditing a website's technical errors and broken links"
+      ],
+      "why": "Exemples : Nike vs Adidas, saisonnalité de « running shoes ». Les profils d'audience (démographie, appareils) sont plutôt du ressort de Quantcast."
+    },
+    {
+      "id": "gm-11",
+      "fiche": "digital-ci",
+      "q": "Which question is Quantcast best suited to answer?",
+      "correct": "Who is the digital audience and what distinguishes it?",
+      "wrong": [
+        "Who are our main online competitors in this market?",
+        "Where does a rival's website traffic come from each month?",
+        "Is consumer interest in a product seasonal during the year?"
+      ],
+      "why": "Quantcast fournit démographie, géographie, appareils, intérêts et comportements de navigation."
+    },
+    {
+      "id": "gm-12",
+      "fiche": "digital-ci",
+      "q": "Which item is part of the Share of Search audit deliverables?",
+      "correct": "A Competitor Strategy Audit Matrix (Facebook, Twitter, Pinterest, YouTube)",
+      "wrong": [
+        "A full patent portfolio comparison between the two global competitors and their suppliers",
+        "A supplier cost breakdown for the raw materials used by each of the brands",
+        "A customs tariff schedule for each of the countries selected as target markets"
+      ],
+      "why": "Livrables : Share of Search, évaluation Universal Search (images, cartes, vidéo), matrice d'audit des concurrents sur 4 réseaux, recommandations pour réduire le rebond selon Hofstede."
+    },
+    {
+      "id": "gm-13",
+      "fiche": "pestel-political",
+      "q": "In PESTEL, which factor covers environmental regulations, sustainability standards and green consumerism?",
+      "correct": "Ecological",
+      "wrong": [
+        "Economic",
+        "Social",
+        "Legal"
+      ],
+      "why": "PESTEL = Political, Economic, Social, Technological, Ecological, Legal. Ecological = réglementations environnementales, durabilité, consommation verte ; Economic = PIB, pouvoir d'achat, changes, inflation."
+    },
+    {
+      "id": "gm-14",
+      "fiche": "pestel-political",
+      "q": "Which of the following is a 'third-market' political threat?",
+      "correct": "Extraterritorial sanctions and trade bans",
+      "wrong": [
+        "Export promotion subsidies from the home government",
+        "Local-content laws in the host country",
+        "Price controls in the host country"
+      ],
+      "why": "Trois environnements : home-country, host-country, third-market. Sanctions extraterritoriales, boycotts, pressions d'ONG = tiers marchés."
+    },
+    {
+      "id": "gm-15",
+      "fiche": "pestel-political",
+      "q": "Which term describes the gradual transfer of ownership and control to local nationals?",
+      "correct": "Domestication (creeping expropriation)",
+      "wrong": [
+        "Expropriation (official seizure of assets)",
+        "Nationalization (takeover of whole industries)",
+        "Repatriation (bringing profits back home)"
+      ],
+      "why": "Expropriation = saisie officielle d'actifs ; Nationalization = reprise d'industries entières ; Domestication = transfert progressif de la propriété et du contrôle."
+    },
+    {
+      "id": "gm-16",
+      "fiche": "pestel-political",
+      "q": "Exchange controls and profit repatriation barriers are examples of which type of risk?",
+      "correct": "Transfer risk",
+      "wrong": [
+        "Ownership risk",
+        "Operating risk",
+        "Reputation risk"
+      ],
+      "why": "Transfer risk = restrictions de capitaux et de profits (contrôles des changes, barrières au rapatriement, dévaluation)."
+    },
+    {
+      "id": "gm-17",
+      "fiche": "pestel-political",
+      "q": "Which is a local-content requirement example under 'operating risk'?",
+      "correct": "A mandate that a fixed percentage of parts be locally sourced",
+      "wrong": [
+        "Official seizure of a foreign-owned factory by the state",
+        "A ban on converting local profits into the home currency",
+        "A sudden fall in the international value of the currency"
+      ],
+      "why": "Local-content laws exigent un pourcentage de pièces locales : c'est un risque opérationnel. Saisie = ownership risk ; conversion/dévaluation = transfer risk."
+    },
+    {
+      "id": "gm-18",
+      "fiche": "pestel-political",
+      "q": "What are the three steps of the political risk analysis procedure?",
+      "correct": "Issues of relevance; evaluate events and probability; probable impacts and responses",
+      "wrong": [
+        "Collect taxes; hire lobbyists; file a lawsuit against the host government quickly",
+        "Choose the entry mode; set the price; launch the promotion campaign locally",
+        "Sign the contract; insure the shipment; transfer the payment to the exporter"
+      ],
+      "why": "Étape 1 enjeux pertinents ; étape 2 événements et probabilité (volonté du gouvernement d'agir) ; étape 3 impacts probables et plans de contingence."
+    },
+    {
+      "id": "gm-19",
+      "fiche": "pestel-political",
+      "q": "Which strategy helps an SME manage political risk?",
+      "correct": "Use flexible, low-commitment entry modes such as local distributors",
+      "wrong": [
+        "Build a wholly owned factory immediately to control operations",
+        "Depend on a single overseas market to keep things simple",
+        "Price contracts in the volatile local currency of the host country"
+      ],
+      "why": "Agents/distributeurs locaux gardent la flexibilité de sortie. Autres leviers : paiement d'avance, prix en devise forte, diversification, assurance-crédit à l'exportation."
+    },
+    {
+      "id": "gm-20",
+      "fiche": "economic-env",
+      "q": "What is the effect of currency devaluation on exports and imports?",
+      "correct": "Exports get cheaper and imports get more expensive",
+      "wrong": [
+        "Exports get more expensive and imports get cheaper",
+        "Both exports and imports get cheaper",
+        "Neither is affected"
+      ],
+      "why": "Dévaluation : les exportations deviennent plus compétitives, les importations plus chères, avec un risque d'inflation. La réévaluation fait l'inverse."
+    },
+    {
+      "id": "gm-21",
+      "fiche": "economic-env",
+      "q": "How is the implied PPP exchange rate computed in the Big Mac Index?",
+      "correct": "Local Big Mac price ÷ US Big Mac price",
+      "wrong": [
+        "US Big Mac price ÷ local Big Mac price",
+        "Local Big Mac price × US Big Mac price",
+        "Local Big Mac price − US Big Mac price"
+      ],
+      "why": "On compare ce taux implicite au taux de marché réel pour détecter la sous- ou surévaluation d'une monnaie."
+    },
+    {
+      "id": "gm-22",
+      "fiche": "economic-env",
+      "q": "According to the Law of One Price, what should be true?",
+      "correct": "Identical products cost the same across countries in a common currency",
+      "wrong": [
+        "Every country must apply the same level of taxes to sellers",
+        "Local wages must be identical in every country worldwide",
+        "Exchange rates should never change over the years"
+      ],
+      "why": "PPP : les taux sont en équilibre quand le pouvoir d'achat est égalisé (à ajuster par PIB par habitant)."
+    },
+    {
+      "id": "gm-23",
+      "fiche": "economic-env",
+      "q": "Which trading bloc level adds a common external tariff to a free trade area?",
+      "correct": "Customs union",
+      "wrong": [
+        "Common market",
+        "Economic union",
+        "Political union"
+      ],
+      "why": "Ordre : Free Trade Area → Customs Union (tarif extérieur commun) → Common Market (libre circulation travail/capital) → Economic Union (politiques et monnaie harmonisées) → Political Union."
+    },
+    {
+      "id": "gm-24",
+      "fiche": "economic-env",
+      "q": "The Eurozone is an example of which level of integration?",
+      "correct": "Economic union",
+      "wrong": [
+        "Free trade area",
+        "Customs union",
+        "Political union"
+      ],
+      "why": "Economic union harmonise les politiques économiques et la monnaie. NAFTA et EFTA = zones de libre-échange."
+    },
+    {
+      "id": "gm-25",
+      "fiche": "economic-env",
+      "q": "Which are the three pillars of Prahalad's Bottom of the Pyramid strategy?",
+      "correct": "Access to credit, strategic alliances, adapted marketing mix",
+      "wrong": [
+        "Premium pricing, mass media and strong global brands",
+        "Franchising, licensing and exporting to new countries",
+        "Lobbying, sponsorship and celebrity endorsement deals"
+      ],
+      "why": "Microfinance pour réduire les barrières de capital, alliances (ONG, entrepreneurs, gouvernements) et marketing mix adapté (redesign, petites unités, sachets)."
+    },
+    {
+      "id": "gm-26",
+      "fiche": "economic-env",
+      "q": "Which is a textbook BOP innovation delivering water in $0.03 sachets in Ghana?",
+      "correct": "Voltic Cool Pac",
+      "wrong": [
+        "Godrej ChotuKool",
+        "Vodacom Cellular",
+        "Ergothree"
+      ],
+      "why": "ChotuKool = mini-frigo à 65 $ en Inde ; Vodacom = téléphones partagés en Afrique ; Voltic Cool Pac = eau en sachets via vendeurs de rue au Ghana."
+    },
+    {
+      "id": "gm-27",
+      "fiche": "economic-env",
+      "q": "What share of the world population and global GDP do the BRIC economies represent?",
+      "correct": "About 42% of the world population and over 20% of GDP",
+      "wrong": [
+        "About 12% of the world population and 5% of GDP",
+        "About 60% of the world population and 50% of GDP",
+        "About 25% of the world population and 10% of GDP"
+      ],
+      "why": "BRIC = Brésil, Russie, Inde, Chine : ~42 % de la population mondiale et 20 %+ du PIB mondial."
+    },
+    {
+      "id": "gm-28",
+      "fiche": "culture",
+      "q": "In the cultural iceberg model, what proportion is invisible?",
+      "correct": "About 90%: deep values, morals and religious assumptions",
+      "wrong": [
+        "About 10%: daily behaviour, clothing and food habits",
+        "About 50%: gestures, greetings and everyday food habits",
+        "About 25%: spoken language, slogans and packaging design"
+      ],
+      "why": "La partie visible (~10 %) = comportements, vêtements, nourriture, gestes. Les échecs viennent de l'ignorance des 90 % invisibles."
+    },
+    {
+      "id": "gm-29",
+      "fiche": "culture",
+      "q": "Which statement describes a HIGH-context culture such as Japan or China?",
+      "correct": "Relationship first: 'first make a friend, then a deal'",
+      "wrong": [
+        "Direct and literal communication: 'say what you mean'",
+        "Formal, detailed legal contracts that bind strictly",
+        "Strict monochronic time where promptness is required"
+      ],
+      "why": "High-context : communication implicite, accords fondés sur la confiance, temps polychronique. Low-context (USA, Allemagne, Suisse) : direct, contrats formels, ponctualité."
+    },
+    {
+      "id": "gm-30",
+      "fiche": "culture",
+      "q": "Which Hofstede dimension measures the degree of accepted social inequality and hierarchy?",
+      "correct": "Power Distance (PDI)",
+      "wrong": [
+        "Uncertainty Avoidance (UAI)",
+        "Individualism (IDV)",
+        "Long-Term Orientation (LTO)"
+      ],
+      "why": "PDI : haut = hiérarchie respectée (Japon), bas = égalitaire (Danemark). UAI = tolérance à l'incertitude ; IDV = « I » vs « We » ; LTO = planification future vs court terme."
+    },
+    {
+      "id": "gm-31",
+      "fiche": "culture",
+      "q": "What are the five dimensions of Hofstede used in this course?",
+      "correct": "PDI, IDV, MAS, UAI, LTO",
+      "wrong": [
+        "PDI, IDV, MAS, UAI, ROI",
+        "GDP, IDV, MAS, UAI, LTO",
+        "PDI, CSR, MAS, UAI, LTO"
+      ],
+      "why": "Power Distance, Individualism, Masculinity, Uncertainty Avoidance, Long-Term Orientation."
+    },
+    {
+      "id": "gm-32",
+      "fiche": "culture",
+      "q": "What went wrong with Pepsi's 'Come Alive' slogan in Taiwan?",
+      "correct": "It was translated as 'brings your ancestors back from the dead'",
+      "wrong": [
+        "It was banned by the local government for promoting alcohol",
+        "It was printed in the wrong script on all the bottles",
+        "It accidentally copied the slogan of a local competitor"
+      ],
+      "why": "Exemple de piège de traduction : la langue est le miroir de la culture. ENCO signifie « voiture calée » au Japon."
+    },
+    {
+      "id": "gm-33",
+      "fiche": "culture",
+      "q": "What adaptation was made to the Drakkar Noir ad for Saudi Arabia?",
+      "correct": "A male arm in a dark suit sleeve with a single fingertip touch",
+      "wrong": [
+        "The perfume bottle was completely removed from the advertisement",
+        "The model was replaced by a cartoon character in the ad",
+        "The slogan was translated into three different languages"
+      ],
+      "why": "Adaptation à la modestie et aux normes religieuses : esthétique et symboles non verbaux modifiés."
+    },
+    {
+      "id": "gm-34",
+      "fiche": "culture",
+      "q": "Which product was re-engineered to be whisper-quiet for compact Japanese homes?",
+      "correct": "Electrolux Ergothree vacuum cleaner",
+      "wrong": [
+        "Polaroid instant camera for home photos in Arab markets",
+        "Godrej ChotuKool portable cooler sold in India",
+        "Pocari Sweat sports drink expanded across Asia"
+      ],
+      "why": "Adaptation produit à un contexte local (logements compacts). Polaroid : réussite dans le monde arabe (photos à la maison)."
+    },
+    {
+      "id": "gm-35",
+      "fiche": "culture",
+      "q": "In J.A. Lee's 4-step framework, what is Step 3?",
+      "correct": "Isolate the SRC influence and see how it distorts the issue",
+      "wrong": [
+        "Define the problem in terms of home-country cultural traits",
+        "Define the problem in terms of host-country cultural traits",
+        "Redefine the problem without SRC influence and solve it"
+      ],
+      "why": "Étapes : 1 culture du pays d'origine ; 2 culture du pays hôte ; 3 isoler l'influence du SRC (self-reference criterion) ; 4 redéfinir sans SRC et résoudre."
+    },
+    {
+      "id": "gm-36",
+      "fiche": "ethics",
+      "q": "Which is the recommended response when local practice conflicts with home-country ethics (facilitation payments)?",
+      "correct": "Set a global minimum ethical standard; adapt locally only within it",
+      "wrong": [
+        "Follow the local practice in every country in which you operate",
+        "Apply home-country rules only and ignore the local law",
+        "Pay quietly to avoid delays and keep no record of it"
+      ],
+      "why": "Alternatives au paiement : frais officiels de traitement accéléré, documenter les retards, compliance officers, intermédiaires légitimes, escalade aux autorités."
+    },
+    {
+      "id": "gm-37",
+      "fiche": "ethics",
+      "q": "On the ethical decision-making continuum, which is the MOST ethical level?",
+      "correct": "Spirit of morality",
+      "wrong": [
+        "Adherence to law",
+        "Just adherence to law",
+        "Following only home-country law"
+      ],
+      "why": "Continuum : Spirit of Morality > Adherence to Law > Just Adherence to Law > Unethical (ne respecte pas la loi locale ou internationale)."
+    }
+  ]
+}

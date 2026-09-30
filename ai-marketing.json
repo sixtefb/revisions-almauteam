@@ -1,0 +1,644 @@
+{
+  "id": "ai-marketing",
+  "emoji": "🤖",
+  "name": {
+    "fr": "Marketing with AI",
+    "en": "AI in Marketing"
+  },
+  "teacher": "Ruslan Khasanov (AlmaU)",
+  "coverage": "Lectures 1, 2, 4 et 5 (la Lecture 3 – prédiction / churn – n'a pas encore été fournie)",
+  "fiches": [
+    {
+      "id": "llm",
+      "title": {
+        "fr": "Les LLM : comment ça marche vraiment",
+        "en": "LLMs: what is really happening inside"
+      },
+      "body": {
+        "fr": [
+          "**LLM = Large Language Model** (ChatGPT, Claude, Gemini). Il repère des motifs appris sur une énorme partie d'internet puis **prédit le mot suivant le plus probable**, encore et encore.",
+          "L'IA n'est **pas un cerveau de robot qui « pense »** : c'est une machine de reconnaissance de motifs. Analogie du cours : **« le stagiaire le plus cultivé du monde »** – rapide, utile, parfois faux avec aplomb.",
+          "**Hallucination** : le modèle semble sûr de lui alors qu'il a tort. C'est un **moteur de prédiction, pas une base de faits**, et il n'a **aucune mémoire de ta marque** sauf si tu la lui donnes.",
+          "Règle d'or : le traiter comme un **collègue junior rapide et cultivé, jamais comme un oracle**. Toujours vérifier les faits avant de publier.",
+          "**93 %** des marketeurs utilisent déjà des outils d'IA (Salesforce, State of Marketing). Objectif du cours : passer d'un usage *accidentel* à un usage *intentionnel*."
+        ],
+        "en": [
+          "**LLM = Large Language Model** (ChatGPT, Claude, Gemini). It matches patterns learned from a huge slice of the internet and **predicts the most likely next word**, repeatedly.",
+          "AI is **not a robot brain that “thinks”** like you: it is a pattern-matching machine. Course analogy: **“the world’s best-read intern”** – fast, useful, occasionally confidently wrong.",
+          "**Hallucination**: the model sounds sure while being wrong. It is a **prediction engine, not a fact database**, and it has **no built-in memory of your brand** unless you tell it.",
+          "Rule of thumb: treat it like a **fast, well-read junior colleague, never an oracle**. Always check facts before you publish.",
+          "**93%** of marketers already use AI tools (Salesforce, State of Marketing). Goal of the course: make usage *intentional* instead of *accidental*."
+        ]
+      }
+    },
+    {
+      "id": "uses-tools",
+      "title": {
+        "fr": "Ce qu'on peut faire avec l'IA + la boîte à outils",
+        "en": "What AI can do + the toolbox"
+      },
+      "body": {
+        "fr": [
+          "**6 usages d'un LLM** : rédiger vite (10 variantes en secondes), brainstormer, résumer (40 pages → 3 puces), réécrire le ton (1 message, 5 publics), lire le sentiment (avis/commentaires), traduire et localiser.",
+          "**Au-delà du texte** : images (créas pub, maquettes), vidéo (script → vidéo avec avatars), prédiction (qui va partir / acheter), automatisation (campagnes qui s'ajustent seules).",
+          "**Boîte à outils** : Chat/écriture = ChatGPT, Claude, Gemini · Images & design = Midjourney, Canva AI, Adobe Firefly · Vidéo = HeyGen, Lumen5, Runway · SEO & contenu = Surfer SEO, Semrush AI, Jasper · Automatisation = Gumloop, Zapier AI · Analytics & personnalisation = HubSpot Breeze, Salesforce Einstein, Klaviyo.",
+          "**Les 5 « métiers » de l'IA** : créer, prédire, comprendre le langage, comprendre les images, planifier et agir. Écrire ≠ prédire ≠ designer ≠ automatiser : chaque tâche demande le bon outil."
+        ],
+        "en": [
+          "**6 things an LLM does**: draft copy fast (10 variations in seconds), brainstorm, summarize (40 pages → 3 bullets), rewrite tone (1 message, 5 audiences), read sentiment (reviews/comments), translate & localize.",
+          "**Beyond text**: images (ad creatives, mockups), video (script → video with AI avatars), prediction (who will churn/buy), automation (campaigns that adjust themselves).",
+          "**Toolbox**: Chat/Writing = ChatGPT, Claude, Gemini · Images & Design = Midjourney, Canva AI, Adobe Firefly · Video = HeyGen, Lumen5, Runway · SEO & Content = Surfer SEO, Semrush AI, Jasper · Automation = Gumloop, Zapier AI · Analytics & personalization = HubSpot Breeze, Salesforce Einstein, Klaviyo.",
+          "**The 5 jobs of AI**: create, predict, understand language, understand images, plan & act. Writing ≠ predicting ≠ designing ≠ automating: each job needs the right tool."
+        ]
+      }
+    },
+    {
+      "id": "prompting-loop",
+      "title": {
+        "fr": "Bien prompter, boucle de travail, erreurs de débutant",
+        "en": "Prompting, the work loop, beginner mistakes"
+      },
+      "body": {
+        "fr": [
+          "**Prompt faible vs fort** : « Écris une légende Instagram pour mon café » (générique) vs un brief précis (3 légendes, café de spécialité à Almaty, jeunes actifs, nouveau latte au lait d'avoine, ton décontracté, sans émojis, 15 mots max). Le modèle n'est pas plus intelligent : **ton input lui donne de la matière**.",
+          "**Boucle de travail** : **Brief** (objectif, public, ton) → **Draft** (l'IA fait la v1) → **Review** (faits et voix) → **Edit** (couper, affiner) → **Approve** (l'humain décide). *AI drafts, humans decide.*",
+          "**Erreurs classiques** : copier-coller le 1er résultat dans un deck client ; demander à un chatbot de « prédire notre churn » (mauvais outil) ; prompt vague puis accuser l'outil ; oublier que l'IA ne connaît pas ta marque – il faut le lui redire à chaque fois.",
+          "**À retenir** : les LLM prédisent des motifs de langage (pas infaillibles) · un bon résultat naît d'un bon brief · différents besoins = différentes IA · ton jugement reste l'élément le plus important."
+        ],
+        "en": [
+          "**Weak vs strong prompt**: “Write an Instagram caption for my coffee shop” (generic) vs a specific brief (3 captions, specialty coffee shop in Almaty, young professionals, new oat-milk latte, casual tone, no emojis, max 15 words). The model isn’t smarter: **your input gave it something to work with**.",
+          "**Work loop**: **Brief** (goal, audience, tone) → **Draft** (AI makes v1) → **Review** (facts & voice) → **Edit** (cut, sharpen) → **Approve** (human makes the call). *AI drafts, humans decide.*",
+          "**Classic mistakes**: pasting the first output into a client deck; asking a chatbot to “predict our churn rate” (wrong tool); vague prompt then blaming the tool; forgetting AI doesn’t know your brand unless you tell it – every time.",
+          "**Takeaways**: LLMs predict language patterns (not infallible) · great output starts with a great brief · different jobs need different AI · your judgment is still the most important part."
+        ]
+      }
+    },
+    {
+      "id": "seo-geo",
+      "title": {
+        "fr": "SEO, AEO, GEO : comment on te trouve",
+        "en": "SEO, AEO & GEO: how people find you"
+      },
+      "body": {
+        "fr": [
+          "**37 %** des gens commencent désormais leur recherche en demandant à un outil d'IA (Search Engine Land, jan. 2026). Deux voies : **Google** (liste de liens) et **chat IA** (UNE réponse, souvent sans lien). Être #1 sur Google ne suffit plus.",
+          "**Analogie du restaurant** : **SEO** = être dans le guide des restaurants de la ville ; **AEO** = être celui que le guide met en avant comme « la réponse » ; **GEO** = être le nom qu'un ami (l'IA) prononce à voix haute quand on demande « où manger ? ».",
+          "**Les 4 piliers du SEO** : **Technique** (peut-on entrer ? rapide, mobile, pas de liens cassés) · **On-page** (titres, en-têtes, un sujet par page) · **Contenu** (meilleur que le voisin ?) · **Off-page** (backlinks, avis, mentions).",
+          "**Ce que le GEO ajoute** : vérifier l'accès des robots IA (liste séparée de la recherche classique) · **répondre tout de suite** (1re phrase) · garder l'information **fraîche** · **être cité ailleurs** (avis, forums, mentions : l'IA lit tout internet).",
+          "**Vocabulaire** : *robots.txt* = la liste d'invités à l'entrée · *crawl/index* = visiter et mémoriser les pages · *keyword* = mots tapés · *backlink* = un autre site qui pointe vers toi · *schema markup* = étiquettes cachées dans le code qui disent aux robots ce qu'ils regardent."
+        ],
+        "en": [
+          "**37%** of people now start their search by asking an AI tool (Search Engine Land, Jan 2026). Two ways: **Google** (list of links) and **AI chat** (ONE answer, often no links). Ranking #1 on Google isn’t enough anymore.",
+          "**Restaurant analogy**: **SEO** = being listed in the city’s restaurant guide; **AEO** = being the one the guide highlights first as “the answer”; **GEO** = being the name a friend (the AI) says out loud when asked “where should I eat?”.",
+          "**The 4 SEO basics**: **Technical** (can people/robots get in? fast, mobile, no broken links) · **On-page** (titles, headers, one topic per page) · **Content** (better than the shop next door?) · **Off-page** (backlinks, reviews, mentions).",
+          "**What GEO adds**: check AI bots’ access (separate list from regular search) · **answer immediately** (first sentence) · keep info **fresh** · **get talked about elsewhere** (reviews, forums, mentions: AI reads the whole internet).",
+          "**Glossary**: *robots.txt* = the guest list at the door · *crawl/index* = visiting and remembering pages · *keyword* = words typed · *backlink* = another site pointing to yours · *schema markup* = hidden labels in the code telling robots what they are looking at."
+        ]
+      }
+    },
+    {
+      "id": "geo-practice",
+      "title": {
+        "fr": "GEO en pratique : robots.txt, réponse d'abord, 5 exercices",
+        "en": "GEO in practice: robots.txt, answer first, 5 exercises"
+      },
+      "body": {
+        "fr": [
+          "**Comment l'IA répond** : elle **découpe ta question en plusieurs sous-questions** (ex. « best VPN for streaming in Europe » → « best VPN 2026 », « VPN Netflix streaming », « VPN Europe servers »). Ta page doit gagner **l'une de ces petites questions**.",
+          "**robots.txt** : beaucoup de sites bloquent sans le vouloir les bots IA (**GPTBot**, **ChatGPT-User**). Vérifier via *tonsite.com/robots.txt* : si ces noms sont bloqués, l'IA ne lira jamais le site.",
+          "**Answer first, explain later** : réponse façon SMS (« Le meilleur café de spécialité d'Almaty pour télétravailler est X : wifi rapide, calme, ouvert jusqu'à 22h ») et non façon dissertation. C'est ce qui est cité.",
+          "**5 exercices** : (1) mots-clés avec l'IA (15-20 idées, « juste curieux » vs « prêt à acheter », longues traînes, vérifier dans Google Keyword Planner) ; (2) plan de contenu ; (3) comparer sa page à 2 concurrents (top 3 des corrections) ; (4) faire écrire le **schema markup** (tester dans Google Rich Results Test) ; (5) demander à l'IA si elle **connaît déjà ta marque**.",
+          "**Outils gratuits** : Google Search Console (classement réel, pages indexées) · Screaming Frog (crawl, problèmes techniques) · Google Keyword Planner (volumes de recherche) · Google Rich Results Test (schema) · ChatGPT/Claude.",
+          "**Erreurs** : bourrer un mot-clé partout · publier une fois sans jamais mettre à jour · ne jamais vérifier l'accès des bots IA · croire la 1re réponse de l'IA sans la vérifier avec de vraies données."
+        ],
+        "en": [
+          "**How AI answers**: it **breaks your question into several smaller questions** (e.g. “best VPN for streaming in Europe” → “best VPN 2026”, “VPN Netflix streaming”, “VPN Europe servers”). Your page must win **one of these smaller questions**.",
+          "**robots.txt**: many sites accidentally block AI bots (**GPTBot**, **ChatGPT-User**). Check *yourwebsite.com/robots.txt*: if these names are blocked, AI can never read the site.",
+          "**Answer first, explain later**: text-message style (“The best specialty coffee shop in Almaty for remote work is X: fast wifi, quiet, open until 10pm”) not essay style. That is what gets quoted.",
+          "**5 exercises**: (1) keywords with AI (15–20 ideas, “just browsing” vs “ready to buy”, long-tail phrases, double-check in Google Keyword Planner); (2) content plan; (3) compare your page to 2 competitors (top 3 fixes); (4) get AI to write **schema markup** (test in Google Rich Results Test); (5) ask AI if it **already knows you exist**.",
+          "**Free toolkit**: Google Search Console (real ranking, indexed pages) · Screaming Frog (crawl, technical issues) · Google Keyword Planner (search volume) · Google Rich Results Test (schema) · ChatGPT/Claude.",
+          "**Mistakes**: stuffing one keyword everywhere · publishing once and never updating · never checking if AI bots can reach the site · trusting AI’s first answer without checking real data."
+        ]
+      }
+    },
+    {
+      "id": "end-to-end",
+      "title": {
+        "fr": "Analytics de bout en bout : du clic à la vente",
+        "en": "End-to-end analytics: from ad click to sale"
+      },
+      "body": {
+        "fr": [
+          "**Problème** : chaque système raconte sa propre histoire – la régie pub (clics, coût par clic), le site (sessions, formulaires), le CRM (deals suivis). Aucun ne dit **quel canal amène de vrais clients payants**.",
+          "**La chaîne** : **Ad Account** (dépenses, clics) → **Website** (ce que font les clics) → **CRM** (quelles visites deviennent des leads) → **Sales** (quels leads paient vraiment).",
+          "**Exemple clé** : Canal A = leads à 2 $ mais 1 sur 50 achète (≈ 100 $ par vente) ; Canal B = leads à 8 $ mais 1 sur 5 achète (≈ 40 $ par vente) → **B gagne**. Le chiffre qui compte est le **coût par vente (CAC), ROAS / ROMI**, pas le coût par clic ou par lead.",
+          "**Ce qui relie la chaîne** : les **tags UTM** (source, campagne, qui voyagent avec le clic) + un **identifiant commun** pour le même lead/deal à chaque étape. **90 %** des cassures viennent d'un **tagging incohérent** entre régie pub et CRM, pas d'un manque d'outils.",
+          "**Version DIY** : un tableur partagé (Date, Channel, Campaign, Spend, Leads, Deals, Revenue, ROAS) rapproché par campagne/UTM. Marche pour une petite entreprise, devient lent et source d'erreurs avec le volume."
+        ],
+        "en": [
+          "**Problem**: every system tells its own story – the ad account (clicks, cost-per-click), the website (sessions, form fills), the CRM (deals tracked by reps). None alone says **which channel brought real, paying customers**.",
+          "**The chain**: **Ad Account** (spend, clicks) → **Website** (what clicks do on site) → **CRM** (which visits become leads) → **Sales** (which leads actually pay).",
+          "**Key example**: Channel A = $2 leads but only 1 in 50 buys (≈ $100 per sale); Channel B = $8 leads but 1 in 5 buys (≈ $40 per sale) → **B wins**. The number that matters is **cost-per-sale (CAC), ROAS / ROMI**, not cost-per-click or cost-per-lead.",
+          "**What connects the chain**: **UTM tags** (source, campaign, travelling with the click) + a **shared ID** for the same lead/deal at every stage. **90%** of broken analytics come from **inconsistent tagging** between ad account and CRM, not from a lack of tools.",
+          "**DIY version**: one shared spreadsheet (Date, Channel, Campaign, Spend, Leads, Deals, Revenue, ROAS) matched by campaign/UTM. Works for a small business, becomes slow and error-prone as volume grows."
+        ]
+      }
+    },
+    {
+      "id": "ai-automation",
+      "title": {
+        "fr": "Automatiser l'analytics avec l'IA (Automations 1 à 4)",
+        "en": "Automating analytics with AI (Automations 1–4)"
+      },
+      "body": {
+        "fr": [
+          "**Automation 1 – Fusionner** : exporter 3 rapports simples (dépenses par campagne, leads par campagne/UTM, ventes par lead), les charger dans ChatGPT/Claude, demander de les **joindre par nom de campagne ou UTM**.",
+          "**Automation 2 – Calculer** : demander coût par lead, **coût par vente (CAC)** et ROAS/ROMI par canal, classer les canaux **par coût par vente**, et **toujours demander la formule** pour vérifier à la main.",
+          "**Automation 3 – Trouver la fuite** : donner le funnel (clics → visites → leads → deals → ventes) et demander où est la plus grosse chute et si c'est un problème **d'ads, de site web ou de vente/CRM**.",
+          "**Automation 4 – Automatisation continue** : quand le rapport doit se mettre à jour chaque semaine, on passe à des connecteurs no-code (**Albato, Windsor.ai, Roistat, Supermetrics**) qui alimentent un dashboard live depuis les régies, sites et CRM (amoCRM, Bitrix24). *Le prompt IA sert à comprendre la logique ; le connecteur sert à passer à l'échelle.*",
+          "**Erreurs** : comparer les canaux au coût par lead ; UTM incohérents ; **ignorer le décalage temporel** (un lead d'aujourd'hui peut signer dans un mois) ; croire les chiffres fusionnés par l'IA sans vérifier quelques lignes contre les exports."
+        ],
+        "en": [
+          "**Automation 1 – Merge**: export 3 simple reports (ad spend by campaign, CRM leads by campaign/UTM, deals by lead), upload to ChatGPT/Claude, ask it to **join them by campaign name or UTM**.",
+          "**Automation 2 – Calculate**: ask for cost-per-lead, **cost-per-sale (CAC)** and ROAS/ROMI per channel, rank channels **by cost-per-sale**, and **always ask for the formula** so you can double-check by hand.",
+          "**Automation 3 – Find the leak**: give the funnel (clicks → visits → leads → deals → sales) and ask where the biggest drop-off is and whether it is an **ads, website or sales/CRM problem**.",
+          "**Automation 4 – Continuous automation**: when the report must update weekly, move to no-code connectors (**Albato, Windsor.ai, Roistat, Supermetrics**) feeding a live dashboard from ad accounts, websites and CRMs (amoCRM, Bitrix24). *The AI prompt teaches the logic; the connector scales it.*",
+          "**Mistakes**: comparing channels by cost-per-lead; inconsistent UTM naming; **ignoring the time lag** (this week’s lead may close next month); trusting AI’s merged numbers without spot-checking rows against the exports."
+        ]
+      }
+    },
+    {
+      "id": "vibe-coding",
+      "title": {
+        "fr": "Vibe coding : du concurrent au site en ligne",
+        "en": "Vibe coding: from competitor research to a live site"
+      },
+      "body": {
+        "fr": [
+          "**Vibe coding** : tu décris en langage naturel ce que tu veux, l'IA écrit le vrai code et te montre un site cliquable. Tu **diriges**, tu ne tapes pas de syntaxe (analogie : commander une devanture sur mesure à un artisan).",
+          "**Pourquoi c'est utile au marketeur** : **vitesse** (landing page en un après-midi), **indépendance** (tester une offre sans attendre le backlog dev), **propriété** (une page qu'on a construite s'itère tout de suite).",
+          "**Erreur n°1** : « Build me a website for my coffee shop » → résultat générique. Les builders IA sont excellents en **production**, pas pour **décider** quoi dire et à qui.",
+          "**Le bon ordre** : **Research** (2-3 concurrents) → **Content** (rédiger le copy) → **Design** (choisir UNE direction visuelle) → **Build** (Lovable). Sauter au build = template générique.",
+          "**Lovable** : gratuit = **5 crédits de build/jour (~30/mois)** ; payant à partir d'environ 25 $/mois ; export du code et domaine perso possibles. Écrire **un seul brief structuré** (sections hero, value props, témoignages, CTA + headline + direction visuelle + ton) évite de brûler les crédits.",
+          "**Itérer comme une conversation** (« agrandis le hero », « bouton CTA orange », « ajoute une FAQ ») en relisant l'aperçu à chaque changement : la même boucle brief → draft → review → edit → approve.",
+          "**Checklist qualité** : différenciation · exactitude (rien d'inventé) · test mobile · fonctionnalité (liens, formulaires) · identité de marque. Livrable du cours : un site **publié et en ligne**, pas juste une maquette."
+        ],
+        "en": [
+          "**Vibe coding**: you describe in plain English what you want, AI writes real working code and shows a live site you can click. You **direct**, you don’t type syntax (analogy: commissioning a custom shopfront from a builder).",
+          "**Why marketers care**: **speed** (landing page in an afternoon), **independence** (test an offer without waiting on the dev backlog), **ownership** (a page you built can be iterated immediately).",
+          "**Mistake #1**: “Build me a website for my coffee shop” → generic result. AI builders are excellent at **production**, not at **deciding** what the page says and who it’s for.",
+          "**The right order**: **Research** (2–3 competitors) → **Content** (draft copy) → **Design** (pick ONE visual direction) → **Build** (Lovable). Skipping to Build gives a generic template.",
+          "**Lovable**: free tier = **5 build credits/day (~30/month)**; paid plans from around $25/month; code export and custom domain possible. Write **one clear structured brief** (hero, value props, testimonials, CTA + headline + visual direction + tone) to avoid burning credits.",
+          "**Iterate like a conversation** (“make the hero bigger”, “orange CTA button”, “add a FAQ”), reviewing the preview after every change: same loop brief → draft → review → edit → approve.",
+          "**Quality checklist**: differentiation · accuracy (nothing invented) · mobile check · functionality (links, forms) · brand feel. Course deliverable: a **published, live** website, not just a mockup."
+        ]
+      }
+    }
+  ],
+  "qcm": [
+    {
+      "id": "ai-01",
+      "fiche": "llm",
+      "q": "What does a Large Language Model fundamentally do?",
+      "correct": "It predicts the likely next word, repeatedly",
+      "wrong": [
+        "It looks up verified facts in a database of the whole web",
+        "It thinks and reasons exactly like a human brain does",
+        "It copies a matching page word for word from its training data"
+      ],
+      "why": "Un LLM applique des motifs appris et prédit le mot suivant le plus probable, en boucle. Ce n'est ni une base de faits ni un cerveau humain : c'est de la prédiction à très grande échelle qui « ressemble » à de la compréhension."
+    },
+    {
+      "id": "ai-02",
+      "fiche": "llm",
+      "q": "Which analogy does the lecturer use for AI?",
+      "correct": "The world's best-read intern",
+      "wrong": [
+        "A genius professor who is never wrong",
+        "An all-knowing oracle you can trust blindly",
+        "A search engine that indexes every fact"
+      ],
+      "why": "Le cours parle du « stagiaire le plus cultivé du monde » : rapide et utile, mais parfois faux avec aplomb. Donc jamais un oracle."
+    },
+    {
+      "id": "ai-03",
+      "fiche": "llm",
+      "q": "What is an AI 'hallucination'?",
+      "correct": "The model sounds sure while being wrong",
+      "wrong": [
+        "A visual glitch in generated images only",
+        "A deliberate lie coded in by the vendor",
+        "A crash caused by a prompt that is too long"
+      ],
+      "why": "Une hallucination = une réponse fluide et sûre d'elle mais fausse. C'est pour ça qu'on vérifie toujours les faits avant de publier."
+    },
+    {
+      "id": "ai-04",
+      "fiche": "llm",
+      "q": "Which statement best matches the rule of thumb for working with an LLM?",
+      "correct": "Treat it as a fast junior colleague, not an oracle",
+      "wrong": [
+        "Trust its facts because it has read most of the internet",
+        "Use it only for images and never for text tasks",
+        "Give it no context at all so its answers stay neutral"
+      ],
+      "why": "Règle du cours : collègue junior rapide et cultivé, jamais un oracle. On relit, on vérifie, on décide."
+    },
+    {
+      "id": "ai-05",
+      "fiche": "llm",
+      "q": "According to the Salesforce statistic in Lecture 1, what share of marketers already use AI tools day to day?",
+      "correct": "93%",
+      "wrong": [
+        "37%",
+        "58%",
+        "71%"
+      ],
+      "why": "93 % (Salesforce, State of Marketing). Attention à ne pas confondre avec le 37 % de la Lecture 2, qui concerne les gens qui commencent leur recherche par un outil d'IA."
+    },
+    {
+      "id": "ai-06",
+      "fiche": "prompting-loop",
+      "q": "Which request is described in the course as the WRONG tool for a chatbot?",
+      "correct": "Asking it to predict your churn rate",
+      "wrong": [
+        "Asking for ten caption variations",
+        "Asking it to summarize a 40-page report",
+        "Asking it to rewrite a message for 5 audiences"
+      ],
+      "why": "Prédire le churn relève de l'IA prédictive (analyse de données), pas d'un chatbot de langage. Rédiger, résumer et réécrire sont des forces des LLM."
+    },
+    {
+      "id": "ai-07",
+      "fiche": "prompting-loop",
+      "q": "Why does the 'strong' Instagram prompt for the Almaty coffee shop work better than the weak one?",
+      "correct": "It gives audience, product, tone and length",
+      "wrong": [
+        "It runs on a smarter and more expensive AI model",
+        "It is much shorter and simpler than the weak prompt",
+        "It asks the AI to skip fact-checking to save time"
+      ],
+      "why": "Le modèle n'est pas plus intelligent : c'est ton brief (public, produit, ton, longueur) qui lui donne de la matière."
+    },
+    {
+      "id": "ai-08",
+      "fiche": "prompting-loop",
+      "q": "What is the correct order of the AI work loop?",
+      "correct": "Brief → Draft → Review → Edit → Approve",
+      "wrong": [
+        "Draft → Brief → Approve → Review → Edit",
+        "Brief → Approve → Draft → Edit → Review",
+        "Review → Brief → Draft → Approve → Edit"
+      ],
+      "why": "Brief, Draft, Review, Edit, Approve. « AI drafts, humans decide » : l'approbation finale est humaine."
+    },
+    {
+      "id": "ai-09",
+      "fiche": "prompting-loop",
+      "q": "Which of these is listed as a common beginner mistake?",
+      "correct": "Pasting the first output straight into a client deck",
+      "wrong": [
+        "Writing a detailed brief with audience and tone before prompting",
+        "Reviewing the facts and figures carefully before publishing anything",
+        "Editing the draft so that it matches the brand voice and style"
+      ],
+      "why": "Les trois autres sont de bonnes pratiques de la boucle de travail. Copier-coller le premier résultat sans relire est l'erreur classique."
+    },
+    {
+      "id": "ai-10",
+      "fiche": "uses-tools",
+      "q": "Which tool family do Midjourney, Canva AI and Adobe Firefly belong to?",
+      "correct": "Images & Design",
+      "wrong": [
+        "Video",
+        "SEO & Content",
+        "Automation"
+      ],
+      "why": "Images & Design : Midjourney, Canva AI, Adobe Firefly. Vidéo = HeyGen, Lumen5, Runway ; SEO = Surfer SEO, Semrush AI, Jasper ; Automation = Gumloop, Zapier AI."
+    },
+    {
+      "id": "ai-11",
+      "fiche": "uses-tools",
+      "q": "Gumloop and Zapier AI are examples of tools for which job?",
+      "correct": "Automation",
+      "wrong": [
+        "Video creation",
+        "Image generation",
+        "Keyword research"
+      ],
+      "why": "Ce sont des outils d'automatisation (workflows qui tournent et s'ajustent seuls)."
+    },
+    {
+      "id": "ai-12",
+      "fiche": "uses-tools",
+      "q": "Which is NOT one of the five jobs AI can do, as listed in the recap of Lecture 2?",
+      "correct": "Replace human judgment entirely",
+      "wrong": [
+        "Create new content such as text, images or video",
+        "Predict outcomes such as churn or future demand",
+        "Plan and act through automated workflows"
+      ],
+      "why": "Les 5 jobs : créer, prédire, comprendre le langage, comprendre les images, planifier et agir. Le jugement humain reste l'élément le plus important."
+    },
+    {
+      "id": "ai-13",
+      "fiche": "seo-geo",
+      "q": "What share of people now start their search by asking an AI tool rather than typing in Google (Search Engine Land, Jan 2026)?",
+      "correct": "37%",
+      "wrong": [
+        "93%",
+        "12%",
+        "64%"
+      ],
+      "why": "37 %. La conséquence : être #1 sur Google ne suffit plus, il faut un plan pour les DEUX façons de chercher."
+    },
+    {
+      "id": "ai-14",
+      "fiche": "seo-geo",
+      "q": "In the restaurant analogy, what is GEO?",
+      "correct": "Being the name a friend says out loud when asked where to eat",
+      "wrong": [
+        "Being listed in the city's restaurant guide for anyone who looks you up",
+        "Being the one restaurant the guide highlights first as the answer",
+        "Having the fastest-loading menu page of all the restaurants in the city"
+      ],
+      "why": "SEO = être dans le guide ; AEO = être mis en avant comme « la réponse » ; GEO = être le nom que l'IA (l'ami) cite spontanément."
+    },
+    {
+      "id": "ai-15",
+      "fiche": "seo-geo",
+      "q": "Which SEO pillar covers backlinks, reviews and mentions on other sites?",
+      "correct": "Off-Page",
+      "wrong": [
+        "Technical",
+        "On-Page",
+        "Content"
+      ],
+      "why": "Off-Page = est-ce que d'autres recommandent ta boutique ? Technique = accès/vitesse ; On-Page = organisation ; Contenu = qualité de l'offre."
+    },
+    {
+      "id": "ai-16",
+      "fiche": "seo-geo",
+      "q": "What is schema markup?",
+      "correct": "Hidden labels in a page's code that tell robots what they are looking at",
+      "wrong": [
+        "A design template that controls the look of the visible page layout",
+        "A list of bots that are allowed to enter and read the website",
+        "A paid ad format that appears at the very top of search results"
+      ],
+      "why": "Schema markup = « post-it pour robots » dans le code. La liste des bots autorisés, c'est robots.txt."
+    },
+    {
+      "id": "ai-17",
+      "fiche": "seo-geo",
+      "q": "Which is one of the four habits GEO adds on top of SEO?",
+      "correct": "Keeping information fresh and recently updated",
+      "wrong": [
+        "Repeating the main keyword as often as possible",
+        "Hiding the answer until the end of the page",
+        "Blocking all AI bots to protect content"
+      ],
+      "why": "GEO : accès des bots IA, réponse immédiate, information fraîche, être cité ailleurs. Le bourrage de mots-clés est une erreur, pas une habitude."
+    },
+    {
+      "id": "ai-18",
+      "fiche": "geo-practice",
+      "q": "What happens when a user asks AI: 'Best VPN for streaming in Europe'?",
+      "correct": "It splits the question into several smaller queries",
+      "wrong": [
+        "It searches only for the exact words that were typed",
+        "It returns the ten highest-ranked Google pages unchanged",
+        "It asks the user to rephrase the question before answering"
+      ],
+      "why": "L'IA découpe la question en sous-questions (best VPN 2026, VPN Netflix streaming, VPN Europe servers). Ta page doit gagner l'une d'elles."
+    },
+    {
+      "id": "ai-19",
+      "fiche": "geo-practice",
+      "q": "What does robots.txt act like, according to the lecture?",
+      "correct": "The bouncer's guest list at the door",
+      "wrong": [
+        "A map of the site that guides visitors to each page",
+        "A menu listing all the products that are for sale",
+        "A review page written by the customers of the shop"
+      ],
+      "why": "C'est la liste d'invités : elle dit quels robots ont le droit d'entrer lire le site. Bloquer GPTBot ou ChatGPT-User = mur pour l'IA."
+    },
+    {
+      "id": "ai-20",
+      "fiche": "geo-practice",
+      "q": "Which opening sentence is the 'text message way' that AI is more likely to quote?",
+      "correct": "The best specialty coffee shop in Almaty for remote work is X: fast wifi, quiet, open until 10pm.",
+      "wrong": [
+        "There are many factors to consider when choosing a coffee shop, and coffee culture in Almaty has changed a lot over the years.",
+        "Coffee culture has evolved a lot in Almaty, so let us first explore several factors before giving any recommendation at all.",
+        "Before recommending anything, we should review the full history of specialty coffee and how it reached Central Asia."
+      ],
+      "why": "Answer first, explain later : réponse directe dans la première phrase, puis les détails. Les intros façon dissertation sont ignorées par l'IA."
+    },
+    {
+      "id": "ai-21",
+      "fiche": "geo-practice",
+      "q": "Which free tool checks that your schema markup works correctly?",
+      "correct": "Google Rich Results Test",
+      "wrong": [
+        "Semrush site audit dashboard",
+        "Google Trends explore page",
+        "Screaming Frog free-tier crawler"
+      ],
+      "why": "Rich Results Test valide le schema. Keyword Planner = volumes de recherche ; Screaming Frog = crawl technique ; Search Console = classement/indexation."
+    },
+    {
+      "id": "ai-22",
+      "fiche": "geo-practice",
+      "q": "Which is listed as a common beginner mistake in SEO/GEO?",
+      "correct": "Stuffing the same keyword everywhere",
+      "wrong": [
+        "Updating your pages regularly with fresh information",
+        "Checking robots.txt to see if AI bots are allowed",
+        "Verifying AI output against real tools and data"
+      ],
+      "why": "Mieux vaut répondre à la question que répéter un mot-clé. Les autres options sont des bonnes pratiques."
+    },
+    {
+      "id": "ai-23",
+      "fiche": "geo-practice",
+      "q": "What is 'Try This #5' about?",
+      "correct": "Asking an AI tool whether it already knows your brand",
+      "wrong": [
+        "Buying advertising space on AI chat platforms",
+        "Writing FAQ schema markup for a brand-new page",
+        "Auditing a competitor's backlinks with a paid tool"
+      ],
+      "why": "On pose la question du client à ChatGPT/Gemini/Perplexity, on regarde si la marque est citée, sinon on demande pourquoi le concurrent a été recommandé."
+    },
+    {
+      "id": "ai-24",
+      "fiche": "end-to-end",
+      "q": "Which metric should be used to compare marketing channels, according to Lecture 4?",
+      "correct": "Cost-per-sale (with ROAS/ROMI)",
+      "wrong": [
+        "Cost-per-click reported by the ad account",
+        "Number of website sessions per campaign",
+        "Cost-per-lead taken on its own"
+      ],
+      "why": "Les leads pas chers peuvent être de mauvais deals : seul le coût par vente (CAC) et le ROAS/ROMI reflètent le vrai résultat."
+    },
+    {
+      "id": "ai-25",
+      "fiche": "end-to-end",
+      "q": "Channel A: leads cost $2 and 1 in 50 buys. Channel B: leads cost $8 and 1 in 5 buys. What is the cost per sale?",
+      "correct": "A ≈ $100 per sale, B ≈ $40 per sale, so B wins",
+      "wrong": [
+        "A ≈ $2 per sale, B ≈ $8 per sale, so A wins",
+        "A ≈ $52 per sale, B ≈ $13 per sale, so B wins",
+        "A ≈ $50 per sale, B ≈ $80 per sale, so A wins"
+      ],
+      "why": "Coût par vente = coût par lead × nombre de leads pour une vente : A = 2 × 50 = 100 $ ; B = 8 × 5 = 40 $. B est le vrai gagnant malgré des leads plus chers."
+    },
+    {
+      "id": "ai-26",
+      "fiche": "end-to-end",
+      "q": "What is the correct order of the end-to-end analytics chain?",
+      "correct": "Ad Account → Website → CRM → Sales",
+      "wrong": [
+        "Website → Ad Account → Sales → CRM",
+        "CRM → Website → Ad Account → Sales",
+        "Ad Account → CRM → Website → Sales"
+      ],
+      "why": "Dépenses/clics → comportement sur le site → leads dans le CRM → ventes payées."
+    },
+    {
+      "id": "ai-27",
+      "fiche": "end-to-end",
+      "q": "What causes about 90% of broken end-to-end analytics?",
+      "correct": "Inconsistent tagging between the ad account and the CRM",
+      "wrong": [
+        "Lack of expensive analytics software in the company",
+        "Too many visitors arriving on the website at once",
+        "Using free AI tools for the merging and analysis"
+      ],
+      "why": "Le problème n'est pas l'outil mais des UTM/identifiants incohérents qui cassent la chaîne."
+    },
+    {
+      "id": "ai-28",
+      "fiche": "end-to-end",
+      "q": "What are UTM tags?",
+      "correct": "Labels added to ad links (source, campaign) that travel with the click",
+      "wrong": [
+        "Codes placed in robots.txt that block AI bots from reading parts of a website",
+        "Metrics that measure how quickly each page loads on a mobile phone",
+        "Hidden labels in a page's code that describe what the page contains to robots"
+      ],
+      "why": "Les UTM suivent le clic (source, campagne). Ne pas confondre avec le schema markup (étiquettes de page pour les robots)."
+    },
+    {
+      "id": "ai-29",
+      "fiche": "ai-automation",
+      "q": "In Automation 2, why should you ask the AI to show its formulas?",
+      "correct": "So you can double-check the numbers by hand",
+      "wrong": [
+        "Because formulas make the answer look longer and more detailed",
+        "Because AI cannot compute anything without showing formulas",
+        "So that the tool can later be replaced by a connector platform"
+      ],
+      "why": "L'IA peut se tromper : voir la formule permet de vérifier soi-même. Idem pour vérifier quelques lignes fusionnées contre les exports."
+    },
+    {
+      "id": "ai-30",
+      "fiche": "ai-automation",
+      "q": "Albato, Windsor.ai, Roistat and Supermetrics are examples of what?",
+      "correct": "No-code connector platforms feeding a live dashboard",
+      "wrong": [
+        "AI image generators used to create ad creatives",
+        "Website builders used to publish landing pages fast",
+        "Keyword research tools used to plan SEO content"
+      ],
+      "why": "Automation 4 : ils tirent automatiquement les données des régies, sites et CRM (amoCRM, Bitrix24) vers un dashboard live quand le rapport doit être hebdomadaire."
+    },
+    {
+      "id": "ai-31",
+      "fiche": "ai-automation",
+      "q": "Which is a 'common mistake' regarding time in end-to-end analytics?",
+      "correct": "Ignoring that a lead from this week may not close for a month",
+      "wrong": [
+        "Reporting sales numbers to the team too frequently each week",
+        "Tracking every single click in real time on the website",
+        "Comparing channels only across complete calendar years"
+      ],
+      "why": "Le décalage temporel : un lead d'aujourd'hui peut signer bien plus tard, donc comparer trop tôt fausse les canaux."
+    },
+    {
+      "id": "ai-32",
+      "fiche": "ai-automation",
+      "q": "In Automation 3, what question do you ask the AI about the funnel?",
+      "correct": "Where is the biggest drop-off, and is it an ads, website or sales problem?",
+      "wrong": [
+        "Which advertising channel currently has the cheapest cost-per-click?",
+        "How many different keywords should the whole site try to target?",
+        "Which connector tool on the market is the cheapest to subscribe to?"
+      ],
+      "why": "On donne clics → visites → leads → deals → ventes et on cherche la fuite principale et sa nature (ads, site ou vente/CRM)."
+    },
+    {
+      "id": "ai-33",
+      "fiche": "vibe-coding",
+      "q": "What is the right order before building a site with an AI builder?",
+      "correct": "Research → Content → Design → Build",
+      "wrong": [
+        "Build → Research → Design → Content",
+        "Design → Build → Content → Research",
+        "Content → Build → Research → Design"
+      ],
+      "why": "Sauter directement au Build donne un template générique. La recherche, le copy et la direction visuelle rendent le brief solide."
+    },
+    {
+      "id": "ai-34",
+      "fiche": "vibe-coding",
+      "q": "Why does 'Build me a website for my coffee shop' produce a generic result?",
+      "correct": "No research or decisions about message and audience came first",
+      "wrong": [
+        "AI builders are unable to generate any real working code",
+        "The free tier of the tool limits the quality of the design",
+        "Coffee shops always need a full developer to build a site"
+      ],
+      "why": "Les builders IA font la production, pas les décisions : quoi dire, à qui, avec quelle différenciation."
+    },
+    {
+      "id": "ai-35",
+      "fiche": "vibe-coding",
+      "q": "What does Lovable's free tier offer according to the lecture?",
+      "correct": "5 build credits per day (about 30 per month)",
+      "wrong": [
+        "Unlimited builds for the first 30 days after sign-up",
+        "50 build credits per day, refreshed every month",
+        "1 build credit per week, with no rollover of credits"
+      ],
+      "why": "5 crédits/jour (~30/mois), suffisant pour une landing page simple. Payant à partir d'environ 25 $/mois."
+    },
+    {
+      "id": "ai-36",
+      "fiche": "vibe-coding",
+      "q": "Why write one clear build brief instead of prompting Lovable cold and fixing later?",
+      "correct": "Messy iterations burn far more free credits",
+      "wrong": [
+        "Lovable refuses to run prompts that are too vague",
+        "The brief is required in order to publish a site",
+        "Iterating is not allowed at all on the free plan"
+      ],
+      "why": "Une première version brouillon affinée lentement consomme beaucoup plus de crédits qu'un brief structuré."
+    },
+    {
+      "id": "ai-37",
+      "fiche": "vibe-coding",
+      "q": "Which item is part of the vibe-coding quality control checklist?",
+      "correct": "Mobile check",
+      "wrong": [
+        "Keyword density count",
+        "Number of backlinks",
+        "Server hardware review"
+      ],
+      "why": "Checklist : différenciation, exactitude, test mobile, fonctionnalité, identité de marque."
+    }
+  ]
+}
